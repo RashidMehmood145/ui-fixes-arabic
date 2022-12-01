@@ -1,0 +1,307 @@
+<?php
+include('header.php');
+?>
+		<main role="main">		
+			<section class="careers-hero-section">
+				<div class="careers-hero-gray-box"></div>
+				<div class="careers-hero-line-box"></div>
+				<div class="careers-hero-content">
+					<h2 class="careers-hero-heading">Alistithmar Capital</h2>
+					<h3 class="careers-hero-sub-heading">Careers</h3>
+					<div class="careers-hero-short-details">Working for Alistithmar Capital is more than a job.  You will be part of a family that is driven by its passion to lead, deliver value, and innovate financial solutions to our clients.  Regardless where you at in your life journey, we welcome you into our family.</div>
+				</div>
+				
+				<div class="careers-hero-image">
+					<img src="./assets/images/Careers-page-hero-banner.svg">
+					<div class="bar-box-bottom-right"></div>
+				</div>
+			</section>
+			
+			<!---------Content here------------>
+			<section class="after-careers-hero-section">
+				<div class="container">
+					<div class="row vertical-tabs careers-tabs">
+						<div class="col-md-3">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link business-development active" data-toggle="tab" href="#business_development" role="tab" aria-controls="Business Development">Business Development</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link human-resource" data-toggle="tab" href="#human_resource" role="tab" aria-controls="Human Resource">Human Resource</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link information-technology" data-toggle="tab" href="#information_technology" role="tab" aria-controls="Information Technology">Information Technology</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link customer-support" data-toggle="tab" href="#customer_support" role="tab" aria-controls="Customer Support">Customer Support</a>
+								</li>							
+							</ul>
+						</div>
+						<div  class="col-md-9 careers-category-col">
+							<div class="tab-content">
+								<div class="tab-pane active" id="business_development" role="tabpanel">
+									<div class="row">										
+										<div class="accordion" id="accordion_business_development">
+										  <div class="card">
+											<div class="card-header" id="headingOne">
+											  <h2 class="mb-0">
+												<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												  Lorem ipsum dolor sit amet, consectetur Business Development
+												</button>
+											  </h2>
+											</div>
+
+											<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_business_development">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+													<a class="learn-more-cta">Learn More</a>
+											  </div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingTwo">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												 Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_business_development">
+												<div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+													<a class="learn-more-cta">Learn More</a>
+												</div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingThree">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												  Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_business_development">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+													<a class="learn-more-cta">Learn More</a>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									</div>
+									<!--------------Row End-------------->
+								</div>
+								<div class="tab-pane" id="human_resource" role="tabpanel">
+									<div class="row">
+										<div class="accordion" id="accordion_human_resource">
+										  <div class="card">
+											<div class="card-header" id="headingOne">
+											  <h2 class="mb-0">
+												<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												  Lorem ipsum dolor sit amet, consecteturHuman Resource
+												</button>
+											  </h2>
+											</div>
+
+											<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_human_resource">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingTwo">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												 Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_human_resource">
+												<div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+												</div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingThree">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												  Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_human_resource">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									</div>
+									<!--------------Row End-------------->
+									<!--------------Row End-------------->
+								</div>
+								<div class="tab-pane" id="information_technology" role="tabpanel">
+									<div class="row">
+										<div class="accordion" id="accordion_information_technology"">
+										  <div class="card">
+											<div class="card-header" id="headingOne">
+											  <h2 class="mb-0">
+												<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												  Lorem ipsum dolor sit amet, consectetur Information Technology
+												</button>
+											  </h2>
+											</div>
+
+											<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_information_technology">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingTwo">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												 Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_information_technology">
+												<div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+												</div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingThree">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												  Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_information_technology">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									</div>
+									<!--------------Row End-------------->
+									<!--------------Row End-------------->
+								</div>
+								<div class="tab-pane" id="customer_support" role="tabpanel">
+									<div class="row">
+										<div class="accordion" id="accordion_customer_support">
+										  <div class="card">
+											<div class="card-header" id="headingOne">
+											  <h2 class="mb-0">
+												<button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												  Lorem ipsum dolor sit amet, consectetur Customer Support
+												</button>
+											  </h2>
+											</div>
+
+											<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_customer_support">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingTwo">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												 Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_customer_support">
+												<div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>	
+												</div>
+											</div>
+										  </div>
+										  <div class="card">
+											<div class="card-header" id="headingThree">
+											  <h2 class="mb-0">
+												<button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												  Lorem ipsum dolor sit amet, consectetur
+												</button>
+											  </h2>
+											</div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_customer_support">
+											  <div class="card-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+													<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											  </div>
+											</div>
+										  </div>
+										</div>
+									</div>
+									<!--------------Row End-------------->
+									<!--------------Row End-------------->
+								</div>
+							</div>		
+						</div>
+					</div>
+					<!--------------------------->
+				</div>
+			</section>
+			
+		</main>
+	<?php
+include('footer.php');
+?>
