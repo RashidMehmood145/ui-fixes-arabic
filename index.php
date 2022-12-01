@@ -13,7 +13,7 @@ include('header.php');
 						<div class="carousel-indicators-container" data-target="#myCarousel" data-slide-to="1">
 							<span class="carousel-indicators-number">02</span>
 							<h3 class="carousel-indicators-heading">Asset management<h3>
-							<p class="carousel-indicators-content">Lorem ipsum dolor sit amet elit, sed do   incididunt ut labore et dolore magna.</p>
+							<p class="carousel-indicators-content">Lorem ipsum dolor sit amet elit, sed do do   incididunt ut labore et dolore magna.</p>
 						</div>
 						<div class="carousel-indicators-container" data-target="#myCarousel" data-slide-to="2">
 							<span class="carousel-indicators-number">03</span>
