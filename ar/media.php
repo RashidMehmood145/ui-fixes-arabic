@@ -1,7 +1,8 @@
 <?php
 include('header.php');
 ?>
-		<main role="main">		
+		<main role="main">
+		<div class="container">	
 			<section class="media-hero-section">
 				<div class="media-hero-gray-box"></div>
 				<div class="media-hero-line-box"></div>
@@ -11,37 +12,17 @@ include('header.php');
 					<div class="media-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
 				</div>
 				
-				<div class="about-us-hero-image">
+				<div class="media-hero-image">
 					<img src="./assets/images/media-page-main-banner.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
 			</section>
+		</div>
 			
 			<!---------Content here------------>
 			<section class="after-media-hero-section">
 				<div class="container">
 					<div class="row vertical-tabs">
-						<div class="col-md-3">
-							<!--------------------------->
-							<ul class="nav nav-tabs" role="tablist">
-								<li class="nav-item">
-								  <a class="nav-link active" data-toggle="tab" href="#category1" role="tab" aria-controls="Category 1">Category 1</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link" data-toggle="tab" href="#category2" role="tab" aria-controls="Category 2">Category 2</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link" data-toggle="tab" href="#category3" role="tab" aria-controls="Category 3">Category 3</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link" data-toggle="tab" href="#category4" role="tab" aria-controls="Category 4">Category 4</a>
-								</li>
-
-								<li class="nav-item">
-								  <a class="nav-link" data-toggle="tab" href="#category5" role="tab" aria-controls="Category 5">Category 5</a>
-								</li>								
-							</ul>
-						</div>
 						<div  class="col-md-9 news-category-col">
 							<div class="tab-content">
 								<div class="tab-pane active" id="category1" role="tabpanel">
@@ -745,6 +726,27 @@ include('header.php');
 									<!--------------Row End-------------->
 								</div>
 							</div>		
+						</div>
+						<div class="col-md-3">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link active" data-toggle="tab" href="#category1" role="tab" aria-controls="Category 1">Category 1</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link" data-toggle="tab" href="#category2" role="tab" aria-controls="Category 2">Category 2</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link" data-toggle="tab" href="#category3" role="tab" aria-controls="Category 3">Category 3</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link" data-toggle="tab" href="#category4" role="tab" aria-controls="Category 4">Category 4</a>
+								</li>
+
+								<li class="nav-item">
+								  <a class="nav-link" data-toggle="tab" href="#category5" role="tab" aria-controls="Category 5">Category 5</a>
+								</li>								
+							</ul>
 						</div>
 					</div>
 					<!--------------------------->
