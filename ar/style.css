@@ -6441,6 +6441,7 @@ span.mf-text-line::after {
         display: none;
     }
 }
+@font-face {
     font-family: Mulish-Regular;
     src: url(./fonts/Mulish-Regular.ttf);
   }
@@ -6915,9 +6916,9 @@ span.mf-text-line::after {
       margin-left: 6.9%;
       bottom: 57px;
   }
-  a.mobile-language-link {
-      /* display: none; */
-  }
+  /* a.mobile-language-link {
+      display: none;
+  } */
       
   img.bg-mobile-image {
       display: none;
@@ -10699,7 +10700,7 @@ span.mf-text-line::after {
       margin-top: 150px;
       margin-bottom: 150px
   }
-  ..parallel-brokerage-type-title span {
+  .parallel-brokerage-type-title span {
       font-family: Mulish-Bold;
       font-weight: 700;
       word-spacing: 10px;
