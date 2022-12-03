@@ -29,6 +29,7 @@
 			</style>    
 			<!-- Custom styles for this template -->
 			<link href="style.css" rel="stylesheet">
+			<link href="./assets/dist/css/main.css" rel="stylesheet">
 			<link href="custom.css" rel="stylesheet">
 
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
