@@ -37,7 +37,7 @@ include('header.php');
 												
 											</div>
 										</div>
-									</div><!------------End col------------>
+									</div>
 									<div class="col-xl-3 mb-3 col-md-6">
 										<div class="icap-fund-type-wrapper">
 											<div class="icap-fund-type-header rtl">
@@ -125,7 +125,7 @@ include('header.php');
 					</div>
 				</div>		
 			</section>				
-			<section class="befor-footer-section">
+			<!-- <section class="befor-footer-section">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
@@ -142,7 +142,7 @@ include('header.php');
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 		</main>
 			<?php
 include('footer.php');

@@ -83,7 +83,7 @@ body {
 }
 .trade-arabic .icap-fund-type-wrapper {
   width: 100%;
-  height: 525px;
+  /* height: 525px; */
 }
 @media (min-width: 576px) {
   .container-custom {
