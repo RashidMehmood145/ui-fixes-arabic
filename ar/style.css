@@ -8338,3 +8338,4228 @@ span.mf-text-line::after {
       height: 436px;
       position: relative;
   }
+  
+  /**********************Media And News Page Start***********************/
+  /* .media-hero-section {
+          position: relative;
+          height: 614px;
+          top: -130px;
+  } */
+
+  
+  /* .media-hero-line-box {
+      box-sizing: border-box;
+      position: absolute;
+      width: 395px;
+      height: 364px;
+      left: 96px;
+      top: 245px;
+      border: 9px solid #FFFFFF;
+      z-index: 1;
+  } */
+  /* .media-hero-content {
+      position: absolute;
+      top: 307px;
+      left: 206px;
+          z-index: 1;
+  } */
+  h2.media-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+/* .media-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 280px;
+    height: 53px;
+} */
+.media-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+/*************Media Category Tabs***************/
+.after-media-hero-section {
+    margin-top: 50px;
+}
+ .vertical-tabs{
+    font-size:15px;
+    padding:10px;
+    color:#000
+}
+ /* .vertical-tabs .nav-tabs .nav-link {
+        border-radius: 0;
+    text-transform: capitalize;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #333333;
+    margin-bottom: 30px;
+    padding-left: 60px !important;
+} */
+.vertical-tabs .nav-tabs .nav-link.active {
+    border: 0px;
+    position: relative;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    z-index: 1;
+}
+/* .vertical-tabs .nav-tabs .nav-link.active::before {
+    width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 13px;
+    right: auto;
+    background: #000000;
+} */
+.vertical-tabs .nav-tabs .nav-link.active::after {
+    width: 85px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 60px;
+    z-index: -1;
+    right: auto;
+    top: 13px;
+}
+ .vertical-tabs .tab-content>.active{
+    background:#fff;
+    display:block;
+}
+ .vertical-tabs .nav.nav-tabs{
+    border-bottom:0;
+    display:block;
+    float:left;
+    margin-right:20px;
+    padding-right:15px;
+}
+.news-category-col {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.load-more-media-button-wrapper {
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+a.load-more-media-cta {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    padding: 16px 23px;
+    gap: 10px;
+    width: 181px;
+    height: 52px;
+    border: 1px solid #000000;
+}
+a.load-more-media-cta:hover {
+    background: #FFE300;
+    border: 1px solid #FFE300;
+    text-decoration:none;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+/**********************Contact Us Page Start***********************/
+.contact-us-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.contact-us-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.contact-us-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 416px;
+    top: 157px;
+}
+
+.contact-us-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 395px;
+    height: 364px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.contact-us-hero-content {
+    position: absolute;
+    top: 307px;
+    left: 206px;
+        z-index: 1;
+}
+h2.contact-us-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.contact-us-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 280px;
+    height: 53px;
+}
+.contact-us-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+.contact-wrapper {
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 110px;
+}
+.contact-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    width: fit-content;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 54px;
+}
+.contact-heading::before {
+    width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 13px;
+    right: auto;
+    background: #000000;
+}
+.contact-heading span {
+    position: relative;
+}
+.contact-heading span::after {
+    width: 221px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 15px;
+}
+span.short-yellow-line::after {
+    width: 194px;
+}
+span.care-yellow-line::after {
+    width: 142px;
+}
+.customer-care {
+    width: 606px;
+    height: 510px;
+}
+.contact-form {
+    width: 607px;
+    height: 749px;
+    left: 737px;
+    top: 873px;
+    background: #F6F8FA;
+    padding: 50px 84px;
+}
+h3.contact-form-heading {
+    width: 189px;
+    height: 45px;
+    left: 821px;
+    top: 923px;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.contact-form-heading::before {
+    width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 71px;
+    right: auto;
+    background: #000000;
+}
+.contact-form-heading span.short-yellow-line::after {
+    width: 189px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 99px;
+    z-index: 1;
+    right: auto;
+    top: 78px;
+}
+.contact-form-heading span.contact-form-title {
+    position: relative;
+    z-index: 2;
+}
+.contact-inner-form-wrapper {
+    margin-top: 58px;
+}
+.contact-inner-wrapper {
+    display: flex;
+    align-content: center;
+}
+.contact-inner-icon-wrapper {
+    margin-right: 24px;
+}
+.contact-inner-wrapper {
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.contact-inner-label {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #474C55;
+}
+.contact-inner-value {
+    width: fit-content;
+    height: 26px;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.input-group-addon{color:#ff0000; background-color: #ffffff;}
+.contact-inner-form-wrapper .input-group {
+    width: 458px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid rgba(214, 214, 214, 0.5);
+    display: flex;
+    align-content: center;
+    padding: 12px 22px;
+    vertical-align: middle;
+}
+.contact-inner-form-wrapper .input-group .form-control {
+    border: 0px;
+}
+.contact-inner-form-wrapper .input-group .input-group-addon {
+    align-items: center;
+    display: flex;
+}
+.input-group.message-input-group {
+    height: 170px;
+    display: flex;
+    align-content: flex-start;
+    padding: 12px 22px;
+    vertical-align: top;
+}
+button.btn.btn-contact-form-btn {
+    padding: 19px 53px;
+    position: absolute;
+    background: #FFE300;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 0px;
+    margin-top: 56px;
+}
+/************************Careers Page Start***********************/
+.careers-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.careers-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.careers-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 416px;
+    top: 157px;
+}
+
+.careers-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 395px;
+    height: 364px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.careers-hero-content {
+    position: absolute;
+    top: 307px;
+    left: 206px;
+        z-index: 1;
+}
+h2.careers-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.careers-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 280px;
+    height: 53px;
+}
+.careers-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+.after-careers-hero-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.vertical-tabs.careers-tabs ul.nav.nav-tabs {
+    padding-right: 0px;
+}
+.vertical-tabs .nav-tabs a.nav-link.business-development.active::after {
+    width: 173px;
+}
+.vertical-tabs .nav-tabs a.nav-link.human-resource.active::after {
+    width: 132px;
+}
+.vertical-tabs .nav-tabs a.nav-link.information-technology.active::after {
+    width: 181px;
+}
+.vertical-tabs .nav-tabs a.nav-link.customer-support.active::after {
+    width: 142px;
+}
+.col-md-9.careers-category-col {
+    flex: 0 0 74%;
+    max-width: 74%;
+    margin-left: 10px;
+}
+.accordion>.card>.card-header button.btn.collapsed:after { 
+            content: "";
+            float: right; 
+            width:30px;
+            height:30px;
+            background : url(./assets/images/plus-icon.svg) no-repeat;
+            position: absolute;
+            top: 27px;
+            right: 0px;
+        }
+.accordion>.card>.card-header button.btn:after {
+            /* symbol for "collapsed" panels */
+            content: ""; 
+            width:30px;
+            height:30px;
+            float: right; 			
+            background : url(./assets/images/minus-icon.svg) no-repeat;
+            position: absolute;
+            top: 27px;
+            right: 0px;
+        }
+        .card-header {
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: transparent;
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+        .accordion>.card>.card-header button.btn {
+            width: 100%;
+            text-align: left;
+            padding: 0px;
+        }
+        .card-header button.btn {
+            font-family: 'Mulish-Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 160%;
+            align-items: center;
+            color: #000000;
+        }
+        .accordion .card-body p {
+            font-family: 'Mulish-Regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #474C55;
+        }
+        .accordion>.card>.card-header button.btn {
+            border-radius: 0;
+            margin-bottom: -1px;
+            border: 1px solid #474C55;
+            border-left: 0;
+            border-right: 0px;
+            padding: 14px 0px;
+            height: 65px;
+        }
+        .accordion>.card>.card-header {
+            padding: 0px;			
+            background-color: transparent;
+            border-bottom: 0px solid rgba(0,0,0,.125);
+        }
+        .card-header {
+            border-bottom: 0px solid rgba(0,0,0,.125) !important;
+        }
+        .accordion>.card {
+            border: 0px solid rgba(0,0,0,.125);
+        }
+/*******************New Client Page Start****************/
+.new-client-hero-section {
+        position: relative;
+        height: 430px;
+        top: -130px;
+}
+
+.new-client-hero-image {
+    position: absolute;
+    height: 430px;
+    left: 0;
+    top: 130px;
+}
+.new-client-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.new-client-hero-content {
+    position: absolute;
+    top: 326px;
+    left: 206px;
+    z-index: 1;
+}
+h2.new-client-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.new-client-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 280px;
+    height: 53px;
+}
+.vertical-tabs .nav-tabs .nav-link.Overview.active::after {
+    width: 73px;
+}
+.vertical-tabs .nav-tabs .nav-link.Account.active::after {
+    width: 227px;
+}
+.vertical-tabs .nav-tabs .nav-link.faq.active::after {
+    width: 37px;
+}
+.new-client-content-wrapper {
+    width: 821px;
+    height: auto;
+}
+.new-client-content-wrapper ol {
+    padding-left: 15px;
+}
+
+.new-client-content-wrapper ol li {
+    margin-bottom: 17px;
+    font-family: Mulish-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.new-client-content-cta-wrapper {
+    margin-top: 60px;
+}
+.new-client-content-wrapper ol li a {
+    color: #000000;
+    cursor: pointer;
+}
+a.snba-cta {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 19px 65px;
+    background: #FFE300;
+    border: 1px solid #FFE300;
+    margin-right: 16px;
+}
+a.snia-cta {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 19px 28px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    margin-right: 16px;
+}
+a.snba-cta:hover {
+    box-shadow: 0px 0px 4px 3px #ffe300;
+    text-decoration: none;
+}
+a.snia-cta:hover {
+    background: #FFE300;
+    border: 1px solid #FFE300;
+    text-decoration: none;
+}
+/**********************Complaint Page start Here************************/
+.complaint-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.complaint-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.complaint-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 0px;
+    top: 130px;
+}
+.complaint-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.complaint-hero-content {
+    position: absolute;
+    top: 325px;
+    left: 206px;
+        z-index: 1;
+}
+h2.complaint-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.complaint-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 280px;
+    height: 53px;
+}
+.complaint-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+.after-complaint-us-hero-section {
+    margin-bottom: 150px;
+}
+.complaint-wrapper {
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 110px;
+    width: 394px;
+}
+.complaint-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    width: fit-content;
+    position: relative;
+    margin-bottom: 54px;
+}
+
+.complaint-heading span {
+    position: relative;
+}
+.complaint-heading span::after {
+    width: 154px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 15px;
+}
+
+.complaint-inner-info-wrapper p {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+.complaint-inner-info-wrapper ul {
+    padding-left: 14px;
+}
+.complaint-inner-info-wrapper ul li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+
+.complaint-form {
+        width: 607px;
+    height: 749px;
+    left: 737px;
+    top: 873px;
+    background: #F6F8FA;
+    padding: 59px 84px;
+}
+h3.complaint-form-heading {
+    width: 375px;
+    height: 45px;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 45px;
+    /* display: flex; */
+    /* align-items: center; */
+    color: #000000;
+}
+.complaint-form-heading::before {
+       width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -22px;
+    z-index: 1;
+    top: 86px;
+    right: auto;
+    background: #000000;
+}
+.complaint-form-heading span.short-yellow-line::after {
+    width: 374px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 99px;
+    z-index: 1;
+    right: auto;
+    top: 85px;
+}
+.complaint-form-heading span.short-sub-yellow-line::after {
+    width: 143px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 99px;
+    z-index: 1;
+    right: auto;
+    top: 130px;
+}
+.complaint-form-heading span.complaint-form-title {
+    position: relative;
+    z-index: 2;
+}
+.complaint-inner-form-wrapper {
+    margin-top: 83px;
+}
+.complaint-inner-wrapper {
+    display: flex;
+    align-content: center;
+}
+.complaint-inner-icon-wrapper {
+    margin-right: 24px;
+}
+.complaint-inner-wrapper {
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.complaint-inner-label {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #474C55;
+}
+.complaint-inner-value {
+    width: fit-content;
+    height: 26px;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.input-group-addon{color:#ff0000; background-color: #ffffff;}
+.complaint-inner-form-wrapper .input-group {
+    width: 458px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid rgba(214, 214, 214, 0.5);
+    display: flex;
+    align-content: center;
+    padding: 12px 22px;
+    vertical-align: middle;
+}
+.complaint-inner-form-wrapper .input-group .form-control {
+    border: 0px;
+}
+.complaint-inner-form-wrapper .input-group .input-group-addon {
+    align-items: center;
+    display: flex;
+}
+.input-group.message-input-group {
+    height: 170px;
+    display: flex;
+    align-content: flex-start;
+    padding: 12px 22px;
+    vertical-align: top;
+}
+button.btn.btn-complaint-form-btn {
+    padding: 19px 53px;
+    position: absolute;
+    background: #FFE300;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 0px;
+    margin-top: 34px;
+}
+/**********************Information Security Page start Here************************/
+.info-security-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.info-security-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.info-security-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 0px;
+    top: 130px;
+}
+.info-security-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.info-security-hero-content {
+    position: absolute;
+    top: 325px;
+    left: 206px;
+        z-index: 1;
+}
+h2.info-security-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.info-security-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 421px;
+    height: 53px;
+}
+.info-security-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+.after-info-security-us-hero-section {
+    margin-bottom: 150px;
+}
+.threat-category-col {
+    flex: 0 0 74%;
+    max-width: 74%;
+    margin-left: 10px;
+}
+.vertical-tabs.threat-tabs .nav.nav-tabs {
+    padding-right: 0px;
+}
+.vertical-tabs .nav-tabs .nav-link.threat-phishing.active::after{
+    width: 125px;
+}
+.vertical-tabs .nav-tabs .nav-link.threat-spam.active::after{
+    width: 104px;
+}
+.vertical-tabs .nav-tabs .nav-link.threat-typo-squatting.active::after{
+    width: 178px;
+}
+.vertical-tabs .nav-tabs .nav-link.threat-key-logger.active::after{
+    width: 148px;
+}
+.vertical-tabs .nav-tabs .nav-link.threat-malware.active::after{
+    width: 125px;
+}
+.threat-phishing-content p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-phishing-content li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-phishing-content ul {
+    padding-left: 15px;
+}
+.threat-phishing-content h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+    z-index:2;
+}
+span.yellow-behind-line {
+        left: 0px;
+    right: auto;
+}
+span.yellow-behind-line::after {
+    width: 338px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+span.short-yellow-behind-line::after {
+    width: 216px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+/****************************/
+.threat-spam-content p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-spam-content li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-spam-content ul {
+    padding-left: 15px;
+}
+.threat-spam-content h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+    z-index:2;
+}
+.threat-spam-content h3 span.yellow-behind-line {
+        left: 0px;
+    right: auto;
+}
+.threat-spam-content h3 span.yellow-behind-line::after {
+    width: 309px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+.threat-spam-content h3 span.short-yellow-behind-line::after {
+    width: 216px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+h4.heading-box {
+    position: relative;
+    width: 100%;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    float: left;
+    height: 26px;
+}
+.malware-sub-heading {
+    height: 26px;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.threat-malware-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.threat-malware-heading span.yellow-behind-line::after {
+    width: 174px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+.threat-malware-heading span.yellow-behind-line-short::after {
+    width: 212px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+span.heading-box-text {
+    position: relative;
+    top: 6px;
+}
+span.span-square.-box {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    right: 0px;
+    border: 0px;
+    background: #F6F8FA;
+    content: "";
+    z-index: 0;
+}
+.threat-typo-squatting-content p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-typo-squatting-content h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+.threat-typo-squatting-content h3 span.yellow-behind-line {
+    left: 0px;
+    right: auto;
+}
+.threat-typo-squatting-content h3 span.yellow-behind-line::after {
+    width: 400px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+.threat-typo-squatting-content li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-typo-squatting-content ul {
+    padding-left: 15px;
+}
+.threat-key-logger-content p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-key-logger-content h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+.threat-key-logger-content h3 span.yellow-behind-line {
+    left: 0px;
+    right: auto;
+}
+.threat-key-logger-content h3 span.yellow-behind-line::after {
+    width: 360px;
+    height: 18px;
+    display: inline-block;
+    content: "";
+    background: #FFE300;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+}
+.threat-key-logger-content li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.threat-key-logger-content ul {
+    padding-left: 15px;
+}
+/**********************Investor's Awareness Page start Here************************/
+.awareness-hero-section {
+    /* position: relative; */
+    height: 430px;
+    /* top: -130px; */
+}
+.awareness-hero-image {
+    position: absolute;
+    height: 430px;
+    left: 0;
+    top: 130px;
+}
+.awareness-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.awareness-hero-content {
+    position: absolute;
+    top: 326px;
+    left: 206px;
+    z-index: 1;
+}
+h2.awareness-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.awareness-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    height: 53px;
+}
+.after-awareness-hero-section {
+    margin-top: 150px;
+     margin-bottom: 150px;
+}
+.vertical-tabs .nav-tabs .nav-link.cma1.active::after {
+    width: 225px;
+}
+.awareness-content-wrapper {
+    width: 821px;
+    height: auto;
+}
+a.cma-files {
+    color: #000000;
+}
+.abou-knowledge-table {
+    width: 822px;
+    background: #F6F8FA;
+    padding: 40px 26px !important;
+}
+.account-type {
+    width: 166px;
+    height: 26px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(71, 76, 85, 0.3);
+    display: flex;
+    align-items: center;
+        border: 0px !important;
+    
+}
+.asset-type {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.td-row {
+    display: flex;
+    align-items: center;
+}
+.td-col1 {
+    -ms-flex: 0 0 118px;
+    flex: 0 0 130px;
+    max-width: 130px;
+    padding: 16px 20px;
+    border-bottom: 1px solid #000000;
+}
+.td-col2, .td-col3, .td-col4 {
+    -ms-flex: 0 0 184px;
+    flex: 0 0 27.5%;
+    max-width: 27.5%;
+    padding: 16px 20px;
+    border-bottom: 1px solid #000000;
+}
+.detail-liquidity-type {
+    height: 58px;
+}
+.detail-risk-type {
+    height: 60px;
+}
+.detail-term-type {
+    height: 153px;
+}
+.detail-return-type {
+    height: 77px;
+}
+.detail-asset-type {
+    height: 60px;
+}
+.td-col1 {
+    background: rgba(71, 76, 85, 0.07);
+}
+.detail-asset-type {
+    border: 0px !important;
+}
+.td-col2 {
+    padding-left: 40px;
+}
+p.span-square-box-para {
+    position: relative;
+    z-index: 1;
+}
+p.span-square-box-para b {
+    position: relative;
+    z-index: 1;
+}
+span.span-square-box {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    right: 0px;
+    border: 0px;
+    background: #F6F8FA;
+    content: "";
+    z-index: 0;
+}
+.awareness-content-wrapper li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.speculation-investing-saving-line::after {
+    width: 338px !important;
+}
+.risk-return-line::after {
+    width: 153px !important;
+}
+.mutual-funds-line::after {
+    width: 130px !important;
+}
+.evaluate-performance-line::after {
+    width: 212px !important;
+}
+/********************Term Condition Page Start*******************/
+.term-condition-hero-section {
+    position: relative;
+        height: 559px;
+    top: -130px;
+}
+.term-condition-hero-content {
+    position: absolute;
+    top: 325px;
+    left: 206px;
+    z-index: 1;
+}
+h2.term-condition-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;
+}
+.term-condition-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 421px;
+    height: 53px;
+}
+.term-condition-hero-image {
+    position: absolute;
+    width: 100%;
+    /* height: 552px; */
+    left: 0px;
+    top: 130px;
+}
+
+.term-condition-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.term-condition-heading {
+    position: relative;
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+section.after-term-condition-hero-section {
+    margin-bottom: 150px;
+}
+/*******************Privacy Page Start*******************/
+.privacy-hero-section {
+    height: 560px;
+    top: -130px;
+}
+.privacy-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 608px;
+    height: 230px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.privacy-hero-content {
+    position: absolute;
+    top: 325px;
+    left: 206px;
+    z-index: 1;
+}
+h2.privacy-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;
+}
+.privacy-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    width: 421px;
+    height: 53px;
+}
+.privacy-hero-image {
+    position: absolute;
+    /* width: 427px; */
+    /* height: 552px; */
+    left: 0px;
+    top: 130px;
+}
+.privacy-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    width: fit-content;
+    position: relative;
+}
+.privacy-after-hero-section {
+    margin-bottom: 150px;
+}
+.privacy-heading span {
+    position: relative;
+}
+.privacy-heading span::after {
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 15px;
+}
+.privacy-heading span.privacy-intro-heading::after {
+    width: 121px;
+    
+}
+.privacy-heading span.complaint-heading::after {
+    width: 515px;
+    
+}
+.privacy-heading span.privacy-exchange-heading::after {
+    width: 515px;
+    
+}
+.privacy-heading span.privacy-policy-heading::after {
+    width: 191px;
+    
+}
+.privacy-heading span.privacy-security-heading::after {
+    width: 191px;
+    
+}
+/****************Our Team page Start ****************/
+.about-us-team-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.about-us-team-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.about-us-team-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 416px;
+    top: 157px;
+}
+.about-us-team-hero-gray-box-list-items {
+    position: relative;
+    width: 416px;
+    height: 419px;
+    left: 1024px;
+    top: 190px;
+    background: #F6F8FA;
+}
+.about-us-team-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 395px;
+    height: 364px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.about-us-team-hero-content {
+    position: absolute;
+    top: 307px;
+    left: 206px;
+        z-index: 1;
+}
+h2.about-us-team-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.about-us-team-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    /*width: 167px;*/
+    width: fit-content;
+    height: 53px;
+}
+.about-us-team-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+/*//////////////////////////////////*/
+.about-us-team-list-items {
+    top: 134px;
+    left: 54px;
+    position: absolute;
+}
+.about-us-team-name a{
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    position: relative;
+}
+.about-us-team-name a.active {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    align-items: center;
+    color: #000000;
+}
+h5.about-us-team-name a.active::before {
+    width: 64px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -88px;
+    z-index: 1;
+    top: 19px;
+    right: auto;
+    background: #000000;
+}
+h5.about-us-team-name a.active::after {
+    width: 131px;
+    height: 16px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    right: auto;
+    top: 22px;
+}
+.about-us-team-name a.active span.about-us-team-value {
+    position: relative;
+    z-index: 2;
+}
+.about-us-team-after-hero-section {
+    margin: 120px 0px 150px 0px;
+}
+.our-team-row {
+    border-bottom: 1px solid #D6D6D6;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px 0px;
+}
+.member-info-image {
+    width: 213px;
+    height: 213px;
+    border-radius: 100%;
+    margin-bottom: 24px;
+}
+.member-info-name {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.member-info-designation {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #474C55;
+    opacity: 0.6;
+}
+.member-full-info-detail p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 65px;
+}
+.shariah-board-member-full-info-detail p {
+    width: 715px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.member-full-info-detail ul{    
+    padding-left: 65px;
+}
+.member-full-info-detail ul li {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.row.our-team-row.first {
+    padding-top: 0px;
+}
+.row.our-team-row.last {
+    border-bottom: 0px;
+}
+.vertical-tabs .nav-tabs .nav-link.board-of-Members.active::after {
+    width: 144px;
+}
+.vertical-tabs .nav-tabs .nav-link.management.active::after {
+    width: 101px;
+}
+.vertical-tabs .nav-tabs .nav-link.shariah-board.active::after {
+    width: 107px;
+}
+/*******************Awards & Achievements Page Start*********************/
+.about-us-awards-achievements-hero-section {
+        position: relative;
+        height: 614px;
+        top: -130px;
+}
+.about-us-awards-achievements-hero-gray-box {
+    position: absolute;
+    width: 597px;
+    height: 580px;
+    left: 0px;
+    top: 29px;
+    background: #F6F8FA;
+}
+.about-us-awards-achievements-hero-image {
+    position: absolute;
+    width: 427px;
+    height: 552px;
+    left: 416px;
+    top: 157px;
+}
+.about-us-awards-achievements-hero-gray-box-list-items {
+    position: relative;
+    width: 416px;
+    height: 419px;
+    left: 1024px;
+    top: 190px;
+    background: #F6F8FA;
+}
+.about-us-awards-achievements-hero-line-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 395px;
+    height: 364px;
+    left: 96px;
+    top: 245px;
+    border: 9px solid #FFFFFF;
+    z-index: 1;
+}
+.about-us-awards-achievements-hero-content {
+    position: absolute;
+    top: 307px;
+    left: 206px;
+        z-index: 1;
+}
+h2.about-us-awards-achievements-hero-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFE300;	
+}
+.about-us-awards-achievements-hero-sub-heading {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    align-items: center;
+    color: #000000;
+    /*width: 167px;*/
+    width: fit-content;
+    height: 53px;
+}
+.about-us-awards-achievements-hero-short-details {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    width: 499px;
+    height: 87px;
+}
+/*//////////////////////////////////*/
+.about-us-team-list-items {
+    top: 134px;
+    left: 54px;
+    position: absolute;
+}
+/*************************Awards Achievements*************************/
+.awards-achievements-gap-row {
+    margin-bottom: 120px;
+}
+.our-company-big-gray-box {
+    width: 1024px;
+    height: 820px;
+    right: 0;
+    background: #F6F8FA;
+    left: auto;
+    position: absolute;
+    top: 0;
+}
+.about-us-our-company-info-section-1 {
+    position: relative;
+    padding: 100px 0px;
+}
+.yellow-bar-top-image {
+        position: absolute;
+    width: 149px;
+    height: 40px;
+    left: 73px;
+    top: -39px;
+    background: #FFE300;
+    z-index: 1;
+}
+.our-company-first-contant-wrapper {
+    width: 501px;
+    height: auto;
+}
+.our-company-first-contant-wrapper p,.our-company-first-contant-wrapper p a {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.our-company-first-contant-wrapper {
+    width: 501px;
+    height: auto;
+    margin-left: 106px;
+}
+.our-company-first-list-item li {
+    position: relative;
+    margin-bottom: 24px;
+    list-style: none;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.our-company-first-list-item li span {
+    z-index: 1;
+    position: relative;
+}
+ul.our-company-first-list-item {
+    padding-left: 10px;
+}
+.our-company-first-list-item li::before {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    background: #ffffff;
+    content: "";
+    z-index: 0;
+}
+.about-us-our-company-info-section-2 {
+    margin: 130px 0px;
+}
+.our-company-bar-line-image {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: -30px;
+}
+.our-company-main-image2 {
+    margin-right: 15px;
+}
+.our-company-big-gray-box3 {
+    position: absolute;
+    width: 656px;
+    height: 687px;
+    left: 416px;
+    top: 0px;
+    background: #F6F8FA;
+}
+.about-us-our-company-info-section-3 {
+    position: relative;
+    margin-bottom: 250px;
+}
+.our-company-bar-line-image3 {
+    position: absolute;
+    left: auto;
+    right: -16px;
+    top: -36px;
+}
+.goals-valus {    
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    position: relative;
+}
+.goals-valus span.yellow-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 233px;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 104px;
+    right: auto;
+    z-index: 1;
+    top: 7px;
+}
+span.goals-valus-span-content {
+    z-index: 2;
+    position: relative;
+}
+.our-company-first-contant-wrapper-3 {
+    padding-left: 162px;
+}
+.our-company-first-contant-wrapper-3 p {
+    width: 394px;
+}
+/********************Annual Reports Page Start*****************/
+.annual-reports-content-wrapper {
+    width: 100%;
+    background: #F6F8FA;
+    padding: 74px;
+}
+#annual_reports p a {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.annual-reports-content-wrapper .card {
+    background: transparent !important;
+}
+.annual-reports-content-wrapper .card-body {
+    padding: 15px 0px;
+}
+/********************Annual Reports Page Start*****************/
+.annual-reports-content-wrapper {
+    width: 100%;
+    background: #F6F8FA;
+    padding: 74px;
+}
+#annual_reports p a {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.annual-reports-content-wrapper .card {
+    background: transparent !important;
+}
+.annual-reports-content-wrapper .card-body {
+    padding: 15px 0px;
+}
+/*********************************************/
+.vertical-tabs .nav-tabs .nav-link.Investment-Account.active::after {
+    width: 152px;
+}
+.vertical-tabs .nav-tabs .nav-link.Asset-Management.active::after {
+    width: 148px;
+}
+.vertical-tabs .nav-tabs .nav-link.Brokerage.active::after {
+    width: 80px;
+}
+
+/***************************Service Brokerage Page START************************/
+/*****************  Brokerage  Marketing *******************/
+.brokerage-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+}
+.brokerage-type-title span {
+    font-family: Mulish-Bold;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+    font-size: 36px;
+}
+.brokerage-type-title span.yellow-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+}
+.brokerage-local-content-wrapper {
+    width: 714px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.international-brokerage-section {
+    position: relative;
+    padding: 100px 0px;
+}
+.ib-gray-box {
+    position: absolute;
+    width: 1024px;
+    height: 885px;
+    left: auto;
+    top: 0;
+    background: #F6F8FA;
+    right: 0px;
+}
+.inter-brokerage-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+}
+.inter-brokerage-type-title span {
+    font-family: Mulish-Bold;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: relative;
+    padding: 1px;
+    font-size: 36px;
+}
+span.inter-yellow-bar::after {
+    width: 222px !important;
+     display: inline-block;
+    content: "";
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+}
+ul.inter-brokerage-list-item {
+    padding-left: 10px;
+    width: 80%;
+    float: left;
+}
+.inter-brokerage-list-item li {
+    position: relative;
+    margin-bottom: 24px;
+    list-style: none;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    width: 160px;
+    float: left;
+}
+.inter-brokerage-list-item li span {
+    z-index: 1;
+    position: relative;
+}
+.inter-brokerage-list-item li::before {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    background: #ffffff;
+    content: "";
+    z-index: 0;
+}
+.international-brokerage-contant-wrapper {
+    padding-left: 118px;
+}
+.international-brokerage-contant-wrapper p {
+    width: 100%;
+    float: left;
+}
+.parallel-brokerage-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+}
+.parallel-brokerage-type-title span.yellow-text-line::after {
+        display: inline-block;
+    content: "";
+    width: 250px;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 83px;
+    z-index: -1;
+}
+.nomu-parallel-market-section {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px
+}
+.parallel-brokerage-type-title span {
+    font-family: Mulish-Bold;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+    font-size: 36px;
+}
+.parallel-brokerage-type-title span.line-span {
+    margin-right: 10px;
+}
+.parallel-brokerage-type-title span.yellow-text-line {
+    margin-left: 83px;
+}
+.nomu-parallel-market-content-wrapper p {
+    width: 852px;
+    margin-left: 83px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.gray-box-parallel-market-feature {
+    width: 1139px;
+    height: 364px;
+    background: #F6F8FA;
+    margin: 0px 78px;
+    padding: 48px;
+}
+.parallel-market-feature-wrapper {
+    width: 50%;
+    float: left;
+    display: flex;  
+    margin-bottom: 8px;
+}
+.parallel-market-feature-image {
+    margin-right: 30px;
+}
+.parallel-market-feature-content {
+    height: 104px;
+    width: 383px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+/********************Phone Trading Start page *******************/
+.pt-gray-box {
+    position: absolute;
+    width: 1344px;
+    height: 463px;
+    left: auto;
+    right: 0;
+    background: #F6F8FA;
+}
+.phone-trading-brokerage-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+}
+.phone-trading-brokerage-type-title span {
+    font-family: Mulish-Bold;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: relative;
+    padding: 1px;
+    font-size: 36px;
+        margin-right: 30px;
+}
+span.phone-trading-yellow-bar::after {
+    width: 141px !important;
+    display: inline-block;
+    content: "";
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+}
+.phone-trading-brokerage-contant-wrapper {
+    padding: 100px 0px;
+}
+.phone-trading-brokerage-contant-wrapper p {
+    width: 714px;
+}
+span.workstation-yellow-bar::after {
+    width: 220px !important;
+    display: inline-block;
+    content: "";
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+}
+span.yellow-applications-text-line {
+    font-family: 'Mulish-Bold';
+    margin-left: 84px;
+}
+span.yellow-applications-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 220px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 83px;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+.smart-devices-market-content-wrapper {
+     padding-left: 235px;
+}
+.smart-devices-market-content-wrapper p {
+    padding-left: 78px;
+    width: 712px;
+}
+.smart-devices-market-content-wrapper a.learn-more-cta {
+    margin-left: 78px;
+}
+ul.phone-trading-brokerage-list-item {
+    padding-left: 88px;
+}
+.phone-trading-brokerage-list-item li {
+    position: relative;
+    margin-bottom: 24px;
+    list-style: none;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.phone-trading-brokerage-list-item li::before {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    background: #F6F8FA;
+    content: "";
+    z-index: 0;
+}
+.phone-trading-brokerage-list-item li span {
+    z-index: 1;
+    position: relative;
+}
+.margin-credit-gray-box {
+    position: absolute;
+    width: 1024px;
+    height: 880px;
+    left: auto;
+    background: #F6F8FA;
+    right: 0px;
+    top:0px;
+}
+section.margin-cedit-over-draft-section {
+    position: relative;
+    padding: 100px 0px;
+}
+.margin-cedit-content-wrapper p {
+    padding-left: 78px;
+    width: 715px;
+}
+ul.margin-cedit-list-item {
+    padding-left: 88px;
+}
+.margin-cedit-list-item li {
+    position: relative;
+    margin-bottom: 24px;
+    list-style: none;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.margin-cedit-list-item li::before {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -10px;
+    background: #ffffff;
+    content: "";
+    z-index: 0;
+}
+.margin-cedit-list-item li span {
+    z-index: 1;
+    position: relative;
+}
+.margin-cedit-content-wrapper a.learn-more-cta {
+    margin-left: 78px;
+}
+.murabahah-financing-content-wrapper p{
+    width: 430px;
+    padding-left: 78px;
+}
+.murabahah-financing-content-wrapper a {
+    margin-left: 78px;
+}
+.murabahah-financing-feature-wrapper {
+    width: 238px;
+    height: 116px;
+    float: left;
+    margin-bottom: 50px;
+        margin-right: 50px;
+}
+.murabahah-financing-feature-content {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+    margin-top: 20px;
+}
+.murabahah-financing {
+    padding: 100px 0px;
+}
+.vertical-tabs .nav-tabs .nav-link.brokerage-yellow-line.active::after {
+    width: 73px !important;
+}
+.vertical-tabs .nav-tabs .nav-link.markets-yellow-line.active::after {
+    width: 62px !important;
+}
+.vertical-tabs .nav-tabs .nav-link.channels-yellow-line.active::after {
+    width: 72px !important;
+}
+.vertical-tabs .nav-tabs .nav-link.margin-facility-yellow-line.active::after {
+    width: 122px !important;
+}
+/***********************Investment Banking Page Start Page*********************/
+h5.about-us-team-name a.active.investment-banking-line::after {
+    width: 265px;
+}
+.vertical-tabs .nav-tabs a.nav-link.ib-overview-yellow-line.active::before {
+    width: 71px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 13px;
+    right: auto;
+    background: #000000;
+}
+.vertical-tabs .nav-tabs a.nav-link.ib-overview-yellow-line.active::after {
+    width: 71px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 60px;
+    z-index: -1;
+    right: auto;
+    top: 13px;
+}
+.vertical-tabs .nav-tabs a.nav-link.ib-products-services-yellow-line.active::before {
+    width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 13px;
+    right: auto;
+    background: #000000;
+}
+.vertical-tabs .nav-tabs a.nav-link.ib-products-services-yellow-line.active::after {
+    width: 151px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 60px;
+    z-index: -1;
+    right: auto;
+    top: 13px;
+}
+.capital-markets-advisory-content-wrapper {
+    width: 500px;
+    height: auto;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.capital-markets-advisory-gray-wrapper {
+    width: 488px;
+    height: 208px;
+    background: #F6F8FA;
+    padding-left: 44px;
+}
+.advisory-services-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 44px;
+}
+.advisory-services-icon {
+    margin-right: 30px;
+}
+.advisory-services-content {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+}
+.capital-markets-advisory-image-wrapper {
+    margin-top: -166px;
+}
+.cma-heading {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    color: #000000;
+    position: relative;
+    z-index: 11;
+}
+.cma-heading span {
+    font-family: 'Mulish-bold';
+    font-weight: 700;
+}
+.cma-heading span::after {
+    width: 151px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 73px;
+}
+/*
+.gray-box-ib {
+    position: absolute;
+    width: 1025px;
+    height: 1448px;
+    left: 415px;
+    background: #F6F8FA;
+}*/
+.ib-according-left-padding {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F6F8FA;
+}
+.ib-according-left-padding .card {
+    background: transparent !important;
+}
+.ib-according-left-padding .tab-content .accordion {
+    background: #f6f8fa !important;
+}
+/********************Real Estate Page START*********************/
+h5.about-us-team-name a.active.real-estate-line::after {
+    width: 153px;
+}
+.after-services-hero-section-real-estate {
+    padding-top: 65px;
+}
+.real-estate-after-image-left {
+    position: relative;
+    width: 704px;
+    height: 382px;
+    left: -96px;
+}
+.right-yellow-box {
+    position: absolute;
+    left: auto;
+    right: -39px;
+}
+.real-estate-after-image-right {
+    position: absolute;
+    width: 491px;
+    height: 233px;
+    right: -81px;
+    left: auto;
+    top: auto;
+    bottom: 0px;
+}
+.real-state-bar-line {
+    position: absolute;
+    left: -38px;
+    top: -38px;
+}
+.strategy-investment-objectives {
+    position: relative;
+    height: 562px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.gray-box-sio {
+    position: absolute;
+    width: 1040px;
+    height: 562px;
+    left: 0px;
+    background: #F6F8FA;
+}
+.sio-wrapper {
+    width: 490px;
+    height: auto;
+    margin-left: 90px;
+}
+
+.sio-heading {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    color: #000000;
+    position: relative;
+    z-index: 11;
+}
+.sio-heading span {
+    font-family: 'Mulish-bold';
+    font-weight: 700;
+}
+.sio-heading span::after {
+    width: 178px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 73px;
+}
+.sio-wrapper p {
+    width: 394px;
+}
+.rsdf-wrapper {
+    width: 490px;
+    height: auto;
+}
+
+.rsdf-heading {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    color: #000000;
+    position: relative;
+    z-index: 11;
+}
+.rsdf-heading span {
+    font-family: 'Mulish-bold';
+    font-weight: 700;
+}
+.rsdf-heading span::after {
+    width: 103px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 115px;
+}
+.rsdf-wrapper p {
+    width: 394px;
+}
+.rsdf-image-right {
+    position: absolute;
+    left: auto;
+    right: -91px;
+    top: auto;
+    bottom: 50px;
+}
+span.idrl-yellow-bar::after {
+    width: 105px !important;
+    display: inline-block;
+    content: "";
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+}
+.idrl-gray-box {
+    top: 0;
+    right: 0px;
+    position: absolute;
+    width: 1024px;
+    height: 644px;
+    left: auto;
+    background: #F6F8FA;
+}
+.idrl-section {
+    position: relative;
+    padding: 0px 0px;
+    height:644px;
+}
+.idrl-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+    margin-top: 100px;
+}
+.idrl-type-title span {
+    font-family: Mulish-Bold;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: relative;
+    padding: 1px;
+    font-size: 36px;
+}
+span.line-span {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 0;
+}
+span.reif-yellow-box
+{
+    position: relative;	
+}
+.reif-heading span.reif-yellow-box::after {
+    width: 106px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    right: auto;
+    top: 26px;
+}
+.reif-heading {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    color: #000000;
+    /* position: relative; */
+    /* z-index: 11; */
+    margin-bottom: -30px;
+}
+.reif-heading span {
+    font-family: 'Mulish-bold';
+    font-weight: 700;
+}
+.real-estate-income-funds {
+    padding: 100px 0px;
+}
+.real-state-bar-line {
+    position: absolute;
+    right: -38px;
+    top: -38px;
+}
+.reif-bar-line {
+    position: absolute;
+    left: auto;
+    right: -21px;
+    top: -35px;
+}
+span.reif-content-heading {
+    width: auto;
+    position: relative;
+    top: -42px;
+    left: 103px;
+    display: block;
+}
+.reif-wrapper p {
+    width: 388px;
+    height: 104px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+    margin-left: 103px;
+}
+.reif-wrapper a {
+    margin-left: 103px;
+}
+.reif-wrapper {
+    padding-top: 100px;
+}
+.megamenu h5 a {
+    padding-left: 0px !important;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+/**************careers Page Form****************/
+form.advanced-search-careers-form {
+    padding: 30px;
+    background: #F6F8FA;
+}
+.vertical-tabs .nav-tabs .nav-link.join-us.active::before {
+    width: 74px;
+    height: 1px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    top: 13px;
+    right: auto;
+    background: #000000;
+}
+.vertical-tabs .nav-tabs .nav-link.join-us.active::after {
+    width: 55px;
+    height: 18px;
+    background: #FFE300;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 60px;
+    z-index: -1;
+    right: auto;
+    top: 13px;
+}
+.advanced-search-careers-form h4 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #474C55;
+}
+.advanced-search-careers-form h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #474C55;
+}
+.advanced-search-careers-form h3 {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #474C55;
+}
+
+.advanced-search-careers-form select,.advanced-search-careers-form input[type="text"] {
+    border-radius: 0px;
+    padding: 7px 10px;
+    border: 1px solid #CBCBCB;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 15px;
+    width: 350px;
+}
+button.search-jobs {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 16px 24px;
+    gap: 10px;
+    width: 151px;
+    height: 52px;
+    margin-top: 40px;
+    justify-content: center;
+    background: #FFE300;
+    border: 1px solid #FFE300;
+    text-decoration: none;
+    float: right;
+}
+
+/***********************Asset Management Page Start Page*********************/
+a.active.asset-management-line::after {
+    width: 262px !important;
+}
+.nav-link.asset-managemen-overview.active::after {
+    width: 73px !important;
+}
+.nav-link.asset-managemen-overview.active::after {
+    width: 73px !important;
+}
+.nav-link.asset-managemen-overview.active::after {
+    width: 73px !important;
+}
+.subscribe-ICAP-Funds-gray-box {
+    position: absolute;
+    width: 949px;
+    height: 781px;
+    left: auto;
+    background: #F6F8FA;
+    right: -91px;
+}
+/******************Award Slider Carousel Item******************/
+.award-image-wrapper {
+    margin-bottom: 20px;
+}
+.award-slider-carousel-item {
+    display: block !important;
+}
+.award-row {
+    display: flex;
+    position: relative;
+}
+.award-col-md-4 {
+    width: 33.33%;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 8px;
+    border: 1px solid #F6F8FA;
+    border-radius: 0px;
+}
+.award-content-wrapper p {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #474C55;
+    text-align: justify;
+} 
+.investment-philosophy-gray-box {
+    position: absolute;
+    width: 949px;
+    height: 580px;
+    left: auto;
+    right: 0px;
+    background: #F6F8FA;
+    top: 100px;
+}
+.investment-philosophy-section {
+    position: relative;
+}
+.investment-philosophy-content-wrapper {
+    width: 501px;
+    height: 286px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #474C55;
+        margin-left: 110px;
+    margin-top: 100px;
+}
+.investment-philosophy-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+    padding-left: 110px;
+}
+span.investment-philosophy-text-line {
+    font-family: 'Mulish-Bold';
+    /* margin-left: 84px; */
+}
+
+span.investment-philosophy-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 192px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+span.line-investment-philosophy-span {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 0;
+}
+span.yellow-investment-philosophy-text-line {
+    font-family: 'Mulish-Bold';
+    /* margin-left: 84px; */
+}
+.investment-strategy-section {
+    padding-top: 230px;
+}
+.investment-strategy-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+}
+
+ul.investment-strategy-list-item {
+    padding-left: 88px;
+}
+.investment-strategy-list-item li {
+    width: 489px;
+    left: 11px;
+    top: 14px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    position: relative;
+    list-style: none;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.investment-strategy-list-item li span{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -10px;
+    top: -16px;
+    background: #F6F8FA;
+    content: "";
+    z-index: -1;
+}
+span.line-investment-strategy-span {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 0;
+}
+span.investment-strategy-text-line {
+    font-family: 'Mulish-Bold';
+    margin-left: 100px;
+}
+span.investment-strategy-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 192px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 100px;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+.investment-strategy-image-wrapper {
+    position: relative;
+    left: auto;
+    top: 0;
+    right: 0px;
+}
+.investment-strategy-image-wrapper img.bar-line-image {
+    position: absolute;
+    left: auto;
+    right: -30px;
+    top: -30px;
+}
+img.is-main-image {
+    position: absolute;
+    left: auto;
+    right: 0px;
+}
+.investment-strategy-content-wrapper a {
+    margin-left: 100px;
+}
+.fra-accordion-content-wrapper {
+    padding: 0px 107px 100px 107px;
+    margin-bottom: 100px;
+}
+.fra-image-wrapper {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    left: auto;
+    right: 0;
+}
+.fra-content-wrapper {
+    background: #F6F8FA;
+    height: auto;
+    width: 100%;
+}
+.financial-reports-announcements {
+    margin-top: 272px;
+}
+img.fra-content-wrapper-banner {
+    margin-top: -100px;
+    float: right;
+}
+
+
+.fra-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+    padding-left: 110px;
+    margin-bottom:64px
+        
+}
+span.line-fra-span {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 0;
+}
+span.fra-text-line {
+    font-family: 'Mulish-Bold';
+}
+span.fra-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 174px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    top: 23px;
+    left: 93px;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+.annual-reports-title {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+ul.annual-reports-list-item {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 15px;
+}
+.card.annual-reports-card {
+    background: #F6F8FA;
+}
+.dpm-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111;
+    margin-bottom: 24px;
+    width: 484px;
+}
+span.line-dpm-span {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+span.dpm-text-line {
+    font-family: 'Mulish-Bold';
+}
+span.dpm-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 227px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+/*****************************************/
+.mutual-funds-table {
+    width: 100%;
+    background: #F6F8FA;
+    padding: 40px 26px !important;
+}
+.mutual-funds-account-type{
+    width: 393px;
+    height: 26px;
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(71, 76, 85, 0.3);
+    display: flex;
+    align-items: center;
+    border: 0px !important;
+}
+.mutual-funds-td-col1 {
+    width: 393px;
+}
+.mutual-funds-td-row{
+    display: flex;
+    align-items: center;
+}
+.mutual-funds-td-row.equity-funds-row {
+    background: #E9EFF5;
+}
+.mutual-funds-td-col2, .mutual-funds-td-col3,.mutual-funds-td-col4 {
+    -ms-flex: 0 0 184px;
+    flex: 0 0 23%;
+    max-width: 23%;
+    padding: 16px 20px;
+}
+.mutual-funds-td-col1,.mutual-funds-td-col2, .mutual-funds-td-col3,.mutual-funds-td-col4 {
+    border-bottom: 1px solid #000000;
+}
+.mutual-funds-td-row.mutual-funds-row {
+    background: #E9EFF5;
+}
+.mutual-funds-td-col1.mutual-funds-title,.mutual-funds-td-col2.mutual-funds-title,.mutual-funds-td-col3.mutual-funds-title,.mutual-funds-td-col4.mutual-funds-title {
+    border-bottom: 0px;
+}
+.mutual-funds-td-col1.detail-return-type,.mutual-funds-td-col2.detail-return-type,.mutual-funds-td-col3.detail-return-type,.mutual-funds-td-col4.detail-return-type {
+    border-bottom: 0px !important;
+}
+.mutual-funds-td-col1.mutual-funds-title,.mutual-funds-td-col1.equity-funds-title {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 15px;
+}
+.mutual-funds-td-col1.asset-type.detail-asset-type,.mutual-funds-td-col1.asset-type.detail-return-type,.mutual-funds-td-col1.asset-type.detail-risk-type,.mutual-funds-td-col1.asset-type.detail-liquidity-type,.mutual-funds-td-col1.asset-type.detail-term-type {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.mutual-funds-td-col1.detail-term-type,.mutual-funds-td-col2.detail-term-type,.mutual-funds-td-col3.detail-term-type,.mutual-funds-td-col4.detail-term-type,.mutual-funds-td-col1.asset-type.detail-liquidity-type,.mutual-funds-td-col1.asset-type.detail-risk-type,.mutual-funds-td-col1.asset-type.detail-return-type,.mutual-funds-td-col1.asset-type.detail-asset-type {
+    height: 58px;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+.mutual-funds-td-col1.equity-funds-title, .mutual-funds-td-col2.equity-funds-title, .mutual-funds-td-col3.equity-funds-title, .mutual-funds-td-col4.equity-funds-title {
+    border-bottom: 0px;
+}
+.mutual-funds-td-col1.mutual-funds-account-type {
+    padding-left: 15px;
+}
+.mf-type-title {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+    z-index: 111; 
+    padding-left: 100px;
+    margin-bottom: 36px;
+}
+span.line-mf-span {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 0;
+}
+span.mf-text-line {
+    font-family: 'Mulish-Bold';
+}
+span.mf-text-line::after {
+    display: inline-block;
+    content: "";
+    width: 113px !important;
+    height: 18px;
+    background: #FFE300;
+    position: absolute;
+    bottom: 4px;
+    left: 220px;
+    z-index: -1;
+    font-family: 'Mulish-Bold';
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/******************Mobile media query*****************/
+@media (max-width: 2560px) {
+    
+}
+@media (max-width: 1920px) {
+    .container {
+        max-width: 1920px;
+        padding: 0px 25px;
+    }
+}
+@media (max-width: 1600px) {
+    .post-row {
+        flex: 0 0 72%;
+        max-width: 72%;
+    }
+}
+
+@media (max-width: 1536) {
+    .main-col-image {
+        padding-top: 36px;
+        padding-left: 90px;
+    }
+}
+@media (max-width: 1440px) {
+    .post-row {
+        flex: 0 0 73%;
+        max-width: 73%;
+    }
+}
+@media (max-width: 1366px) {
+    .post-row {
+        flex: 0 0 74%;
+        max-width: 74%;
+    }
+    .main-col-image {
+        padding-top: 36px;
+        padding-left: 29px;
+    }
+}
+@media (max-width: 1280px) {
+    img.our-funds-image {
+        width: 448px;
+    }
+    .post-row {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .befor-footer-section {
+        height: 543px;
+    }
+}
+@media (max-width: 1080px) {
+    .our-fund-row .section-main-content p {
+        width: 380px;
+    }
+    img.our-funds-image {
+        width: 434px;
+        height: auto;
+    }
+    .main-invest-col-image img {
+        width: 481px;
+        height: auto;
+    }
+    .invest-content-top-gap p {
+        width: 334px;
+        height: auto;
+    }
+    .feature-detail {
+        height: auto;
+        width: 193px;
+    }
+    .feature-box {
+        margin-bottom: 24px;
+    }
+    .feature-row-gap {
+        padding-top: 30px;
+    }
+    .gray-box-invest {
+        max-height: 1124px;
+    }
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 900px) {
+    
+}
+@media (max-width: 889px) {
+    
+}
+@media (max-width: 720px) {
+    
+}
+@media (max-width: 768px) {
+  .megamenu{
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .megamenu> li {
+    margin-bottom: 30px;
+  }
+  .megamenu> li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header{
+    color:#fff;
+  }
+}
+/******************megamenu End*****************/
+@media screen and (max-width: 480px) {
+    .main-menu-bar {
+        padding: 0px 24px;
+        background: rgba(255, 255, 255);
+        height: 60px;
+    }
+    .collapse.navbar-collapse.my-main-menu {
+        display: none !important;
+        float: left;
+        text-align: left;
+    }
+    .navbar-collapse.my-main-menu.collapse.show {
+        display: block !important;
+        height: 100%;
+        background: #ffffff;
+    }
+    a.mobile-language-link {
+        color: #000000;
+    }
+    .btn-outline-secondary:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .btn-outline-secondary.focus, .btn-outline-secondary:focus {
+        box-shadow: 0 0 0 0rem rgb(108 117 125 / 50%);
+    }
+    li.nav-item a {
+        margin: 3px 0px 0px 0px;
+        padding: 5px 5px 5px 5px !important;
+        background-color: #ffffff;
+        border-bottom: 1px solid #474C55;
+    }
+    .container, .container-sm {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0px 24px;
+    }
+    a.navbar-brand.home img {
+        width: 140px;
+    }
+    .megamenu {
+            padding: 0px 15px;
+            width: 100%;
+            right: 0;
+            left: auto;
+            border: 0px;
+            border-radius: 0px;
+            height: 130px;
+            overflow: scroll;
+            scroll-behavior: auto;
+            border-bottom: 1px solid #555555;
+    }
+    .megamenu .col-md-4.col-lg-3 {
+        border-right: 0px solid rgba(214, 214, 214, 0.4);
+    }
+    .megamenu h5 {
+        padding: 0px 0px;
+    }
+    .megamenu h5 {
+        margin-bottom: 0px;
+    }
+    .sub-menu-outter-wrapper {
+        padding-left: 15px !important;
+    }
+    .hero-section {
+        margin-top: 0px;
+        height: 900px;
+    }
+    .carousel-inner .carousel-item > div {
+        display: block;
+    }
+    .slider-sub-heading {
+        font-size: 20px;
+        width: 100%;
+        line-height: 20px;
+    }
+    .carousel-caption {
+        bottom: 0px;
+        z-index: 10;
+        top: 85px;
+        left: 24px;
+        width: 100%;
+    }
+    .carousel-indicators {
+        display: block;
+        left: 0px;
+        width: 100%;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 480px;
+        height: auto;
+    }
+    .carousel-indicators {
+        display: block;
+        left: 0px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        top: 458px;
+    }
+    .carousel-indicators-content {
+        width: 100%;
+        height: auto;  
+        margin-bottom: 24px;
+        text-align: justify;
+    }
+    .carousel-indicators-container {
+        background: #FFFFFF;
+        padding: 8px 25px;
+        gap: 10px;
+        width: 100%;
+        height: 121px;
+    }
+    ol.carousel-indicators.left-carousel-indicators {
+        display: flex;
+        bottom: 264px;
+        top: auto;
+        left: 0;
+        right: auto;
+    }
+    .carousel-indicators-heading {
+        line-height: 16px;
+    }
+    .carousel-indicators li.carousel-indicators-container1 {
+        background-color: #fff !important;
+    }
+    .overlayer-block {
+        display: none;
+    }
+    .main-slider-cta {
+        padding: 14px 14px;
+        height: auto;
+        width: 264px;
+    }
+    .section-main-heading {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    span.heading-bold {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 2px;
+        font-size: 28px;
+    }
+    span.heading-bold::after {
+        height: 14px;
+    }
+    .news-media-main-content::after,.wards-achievements-content::after {
+        display: none;
+    }
+    span.awards-heading-bold::after {
+        height: 14px;
+    }
+    .section-main-content::after {
+        display: none;
+    }
+    .section-main-content {
+        margin-top: 20px;
+    }
+    .slider-box {
+        display: none !important;
+    }
+    .gray-box-invest {
+        flex: 0 0 100%;
+        max-width: 100%;
+        max-height: fit-content;
+        padding: 20px 24px;
+    }
+    .feature-box {
+        margin-bottom: 20px;
+    }
+    .col-md-invest-image {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .awards-achievements-section {
+        padding: 0px;
+    }
+    .invest-content-top-gap p {
+        width: 100%;
+        height: auto;
+        padding: 0px !important;
+        margin-left: 0px;
+        margin-bottom: 24px;
+    }
+    .awards-achievements-content-top-gap {
+        padding-top: 0px;
+    }
+    .wards-achievements-content .section-cta-btn {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    /*.wards-achievements-content::after{
+        display:none;
+    }*/
+    .post-row {
+        padding: 24px 24px;
+        margin-left: 0px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /*.bar-bottom-line-image,.bar-box-news-media,.news-media-main-content::after {
+        display: none;
+    }*/
+    .awards-achievements-col11-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        overflow: hidden;
+        padding-left: 0px;
+    }
+    .how-to-invest-section {
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    .row.our-fund-row .col-md-5.padding-left-0 {
+        padding: 0px;
+    }
+    .bar-line-image {
+        display: none;
+    }
+    .feature-detail {
+        margin-bottom: 11px;
+        text-align: justify;
+        font-size: 14px;
+        width: 100%;
+    }
+    .invest-content-top-gap {
+        padding-top: 20px;
+    }
+    img.our-funds-image {
+        width: 100%;
+        height: auto;
+    }
+    .main-invest-col-image img {
+        width: 100%;
+        height: auto;
+    }
+    .invest-content-top-gap p {
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+        text-align: justify;
+        font-size: 14px;
+    }
+   .invest-main-content {
+        padding-left: 0px;
+        position: relative;
+        z-index: 2;
+        margin-top: 24px;
+    }
+    .invest-main-content p::after {
+        display: none;
+    }
+   .invest-content-top-gap {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .awards-achievements-content-top-gap {
+        padding-top: 24px;
+        margin-left: 0px;
+        padding: 0px 24px;
+    }
+    .wards-achievements-content p {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .wards-achievements-content {
+        padding: 0px 0x;
+    }
+    .inner-col.invest-content-top-gap .wards-achievements-content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .awards-achievements-col11-5 h3.section-heading, .awards-achievements-col11-5 h2.section-main-heading {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .news-media-main-content .section-cta-btn {
+        padding-left: 0px;
+    }
+    .yellow-box-image {
+        bottom: -31px;
+        width: 100%;
+        height: auto;
+        background: #FFE300;
+        position: absolute;
+    }
+    .number-client {
+        text-align: center;
+        padding: 16px;
+    }
+    span.total-no-client {
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .yellow-box-image {
+        bottom: 2px;
+        width: 100%;
+        height: 73px;
+        background: #FFE300;
+        position: relative;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .main-col-image {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .feature-row-gap {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .feature-heading {
+        font-size: 16px;
+    }
+    .section-main-content {
+        padding-left: 0;
+    }
+    .our-fund-row .section-main-content p {
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: justify;
+            font-size: 14px;
+    }
+    .invest-image-container {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    img.family-images {
+        width: 100%;
+        height: auto;
+    }
+   .news-media-col-wrapper {
+        padding-left: 12px;
+        padding-top: 24px;
+        padding-right: 0px;
+    }
+    .news-media-main-content p {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-bottom: 24px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    span.awards-heading-bold {
+        font-size: 28px;
+    }
+    .news-media-section {
+        padding-top: 0px;
+    }
+    .news-media-section-container {
+        padding: 0px 24px;
+    }
+    ul.news-list-item {
+        padding-left: 0px;
+    }
+    .news-media-container {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        padding-top: 0px;
+        padding: 24px;
+    }
+    .news-media-wrapper {
+        padding: 24px;
+    }
+    .invest-col-image {
+        padding: 12px;
+    }
+    .gray-box-news-media {
+        display: none;
+    }
+    .news-media-image img {
+        width: 100%;
+        height: auto;
+    }
+    .news-media-container {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        padding-top: 0px;
+        padding: 0px;
+    }
+    .news-media-wrapper .col-md-6.pl-0 {
+        padding-right: 0px;
+    }
+    a.btn.cta-btn {
+        font-family: Mulish-Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        align-items: center;
+        color: #000000;
+        padding: 14px 24px;
+        border: 1px solid #000000;
+        border-radius: 0px;
+        margin-top: 20px;
+        width: auto;
+        margin-bottom: 24px;
+    }
+    .bar-bottom-line-image {
+        display: none;
+    }
+    .row.our-fund-row .col-image-container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .yellow-btn-box {
+        width: auto;
+        position: relative;
+    }
+    .yellow-btn-box a.main-slider-cta {
+        margin-top: 24px;
+    }
+    /*span.awards-heading-bold::after{
+        display:none;
+    }*/
+    .befor-footer-section {
+        background-size: cover;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-image: url(./assets/images/mobile-bf-bg-footer.svg);
+    }
+    .befor-footer-box {
+        width: 98%;
+        height: 200px;
+        top: 0px;
+        border: 0px solid #FFFFFF;
+        padding-left: 0px;
+        padding-top: 80px;
+    }
+    .footer-about-content {
+        width: 100%;
+    }
+    .befor-footer-cta {
+        padding: 14px 42px;
+        width: 262px;
+        height: auto;
+    }
+    .widget-title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer-widgets.quick-link-container {
+        padding-left: 0px;
+    }
+    .copy-right-text {
+        font-family: Mulish-Regular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+        border-top: 1px solid #D6D6D6;
+        padding-top: 10px;
+    }
+    .copy-right-text br{
+        display:block;
+    }
+    footer.main-footer {
+        background: #F6F8FA;
+        padding: 24px 0px 0px 0px;
+    }
+    .main-maga-menu {
+        /* justify-content: flex-end; */
+        display: block;
+    }
+    a.top-nav-link {
+        font-family: Mulish-Regular;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #000000;
+        margin: 10px 0px 0px 0px;
+        padding: 5px 5px 5px 5px !important;
+        background-color: #F6F8FA;
+        width: 100%;
+        float: left;
+        height: 24px;
+        text-align: left;
+    }
+    .top-nav-link-wrapper {
+        margin-bottom: 0px;
+        margin-top: 0;
+        float: left;
+        height: auto;
+        display: none;
+    }
+    a.mobile-language-link {
+        display: block;
+    }
+    img.bg-desktop-image {
+        display: none;
+    }
+    img.bg-mobile-image {
+        display: block;
+    }
+    .overlayer-block {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        left: auto;
+        right: 0;
+        position: absolute;
+    }
+    .slider-sub-heading,.slider-content {
+        color: #ffffff;
+            width: 94%;
+    }
+    .gray-box-invest a.main-slider-cta {
+        width: 100%;
+    }
+    .befor-footer-main-heading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    a.googlemap img {
+        width: 100%;
+    }
+    .after-hero-section {
+        margin-top: 58px;
+    }
+    .news-list-item li {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .only-mobile {
+        display: block;
+    }
+    .togglesearch {
+        position: relative;
+        top: 17px;
+        right: 0%;
+        width: 100%;
+        display: block;
+
+    }
+    .togglesearch input[type="text"] {
+        width: 79%;
+    }
+    .fade-in-text {
+      animation: fadeIn 15s;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @-moz-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @-o-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @-ms-keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .carousel-item > img {
+            width: 414px;
+            height: auto;
+        }
+        .slider-content {
+            font-size: 16px !important;
+        }
+        .togglesearch input[type="text"] {
+            width: 75%;
+        }
+}
+@media screen and (max-width: 375px) {
+    .carousel-item > img {
+            width: 375px;
+            height: auto;
+        }
+    .slider-sub-heading, .slider-content {
+        color: #ffffff;
+        width: 90%;
+    }
+    a.navbar-brand.home img {
+        width: 104px;
+    }
+    .togglesearch input[type="text"] {
+        width: 72%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .carousel-item > img {
+            width: 320px;
+            height: auto;
+        }
+        .togglesearch input[type="text"] {
+                width: 65%;
+            }
+                
+}
+/* -------------------------- HEADER & FOOTER --------------------------  */
+body, html { overflow-x: hidden !important;}
+img { max-width: 100%; height: auto;}
+.navbar .container { flex-direction: row-reverse; justify-content: space-between;}
+.collapse.navbar-collapse.my-main-menu, .navbar-expand-lg .navbar-nav { justify-content: flex-start; text-align: left;}
+.main-footer .row { flex-direction: row-reverse; text-align: right;}
+.main-footer .widget-title { justify-content: flex-end;}
+.main-footer .Address, .main-footer .mail, .main-footer .phone { flex-direction: row-reverse;}
+.main-footer .Address span.icon, .main-footer .mail span.icon, .main-footer .phone span.icon { margin-left: 10px; margin-right: 0;}
+.copy-right-text { text-align: center;}
+@media screen and (min-width: 320px) and (max-width: 767px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-menu-bar { padding-left: 35px !important; padding-right: 35px !important;}
+  .top-nav-link-wrapper { display: none;}
+  .collapse.navbar-collapse.my-main-menu { display: none !important; float: right; text-align: left; }
+  .collapse.navbar-collapse.my-main-menu.show, .only-mobile { display: block !important;}
+  li.nav-item a { margin: 3px 0px 0px 0px; padding: 5px 5px 5px 5px !important; background-color: #ffffff; border-bottom: 1px solid #474C55; }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  a.mobile-language-link { display: none;}
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  a.mobile-language-link { display: block;}
+}
+/* -------------------------- HEADER --------------------------  */
+
+/* CONTACT US - MAIN */
+.about-us-hero-section { position: relative; width: 100%;}
+.about-us-hero-gray-box-list-items { margin-left: auto; margin-right: 0; left: 0; bottom: 0; top: 50%;}
+.about-us-hero-image { left: auto; right: 0;}
+.about-us-hero-short-details { width: auto; max-width: 400px;}
+.about-us-board-members-wrapper { width: 100%;}
+.about-us-short-details { width: 100%; padding-left: 100px; margin-left: 0 !important;}
+.befor-footer-section { background-size: cover;}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-us-hero-section { height: 100%;}
+  .about-us-hero-gray-box { width: 100%; left: -50px;}
+  .businessmen-main-image { display: none;}
+  .about-us-hero-gray-box { position: relative;}
+  .about-us-hero-line-box { width: 100%; left: 0;}
+  .about-us-hero-content { width: 80%; left: 20px;}
+  .about-us-hero-image { position: absolute; top: 50%; width: 90%; margin-left: auto; right: 0;}
+  .about-us-list-items { top: 50%; transform: translateY(-50%);}
+
+  .about-us-hero-gray-box-list-items { width: 100%; height: 250px;}
+  .about-us-management-wrapper { padding-left: 60px;}
+
+  .our-company-content { margin-top: 50px;}
+  .about-us-short-details, .left-padding-invest-banking { padding-left: 0 ;}
+  .about-us-min-short-details.re-padding-left { margin-left: 0 ;}
+  .about-us-management-wrapper .bar-box-top-right { left: 30px;}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us-hero-section { height: auto;}
+  .about-us-hero-gray-box { position: relative;}
+  .about-us-hero-gray-box-list-items { width: 100%; height: 300px;}
+  .businessmen-main-image { display: none;}
+  .our-company-content { margin-top: 2rem;}
+
+  .about-us-short-details { padding-left: 40px;}
+  .left-padding-invest-banking { padding-left: 0 ;}
+  .about-us-min-short-details.re-padding-left { width: 100%; margin-left: 0; padding-left: 40px;}
+}
+
