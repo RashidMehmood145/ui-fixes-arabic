@@ -2,33 +2,40 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="about-us-team-hero-section">
-				<div class="about-us-team-hero-gray-box"></div>
-				<div class="about-us-team-hero-line-box"></div>
-				<div class="about-us-team-hero-content">
-					<h2 class="about-us-team-hero-heading">About us</h2>
-					<h3 class="about-us-team-hero-sub-heading">Our Company</h3>
-					<div class="about-us-team-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
-				</div>
-				
-				<div class="about-us-team-hero-image">
-					<img src="./assets/images/our-team-about-banner.svg">
-					<div class="bar-box-bottom-right"></div>
-				</div>
-				<div class="about-us-team-hero-gray-box-list-items">
-					<div class="about-us-team-list-items">
-						<h5 class="about-us-team-name"><a href="./our-company.php" class="active"><span class="about-us-team-value">Our Company</span></a></h5>
-						<h5 class="about-us-team-name"><a href="./our-team.php" class=""><span class="about-us-team-value">Our Team</span></a></h5>
-						<h5 class="about-us-team-name"><a href="./awards-achievements.php" class=""><span class="about-us-team-value">Awards & Achievements</span></a><h5>
+			<section class="about-us-hero-section">
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-7 carouselFirst">
+							<div class="about-us-hero-gray-box"></div>
+							<div class="about-us-hero-line-box"></div>
+							<div class="about-us-hero-content">
+								<h2 class="about-us-hero-heading">About us</h2>
+								<h3 class="about-us-hero-sub-heading">Our Company</h3>
+								<div class="about-us-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
+							</div>
+							
+							<div class="about-us-hero-image">
+								<img src="./assets/images/our-team-about-banner.svg" class="img-fluid">
+								<div class="bar-box-bottom-right"></div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-5 carouselFirst">
+							<div class="about-us-hero-gray-box-list-items">
+								<div class="about-us-list-items">
+									<h5 class="about-us-team-name"><a href="./our-company.php" class="active"><span class="about-us-team-value">Our Company</span></a></h5>
+									<h5 class="about-us-team-name"><a href="./our-team.php" class=""><span class="about-us-team-value">Our Team</span></a></h5>
+									<h5 class="about-us-team-name"><a href="./awards-achievements.php" class=""><span class="about-us-team-value">Awards & Achievements</span></a><h5>
+								</div>
+							</div>
+						</div>
 					</div>
-					
 				</div>
 			</section>
 			<!---------Content here------------>
 			<section class="about-us-team-after-hero-section" id="overview">
 				<div class="container">
 					<div class="row vertical-tabs careers-tabs">
-						<div class="col-md-3">
+						<div class="col-sm-12 col-md-3 col-lg-3 d-en">
 							<!--------------------------->
 							<ul class="nav nav-tabs" role="tablist">
 								<li class="nav-item">
@@ -42,7 +49,7 @@ include('header.php');
 								</li>	-->						
 							</ul>
 						</div>
-						<div  class="col-md-9 careers-category-col">
+						<div  class="col-sm-12 col-md-9 col-lg-9 careers-category-col">
 							<div class="tab-content">
 								<div class="tab-pane active" id="Overview" role="tabpanel">
 									<div class="row our-team-row first">	
@@ -58,6 +65,20 @@ include('header.php');
 								</div>
 							</div>		
 						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3 d-ar">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link Overview active" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview">Overview</a>
+								</li>
+								<!--<li class="nav-item">
+								  <a class="nav-link management" data-toggle="tab" href="#Management" role="tab" aria-controls="Management">Management</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link shariah-board" data-toggle="tab" href="#Shariah_Board" role="tab" aria-controls="Shariah Board"> Shariah Board </a>
+								</li>	-->						
+							</ul>
+						</div>
 					</div>
 					<!--------------------------->
 				</div>
@@ -67,11 +88,11 @@ include('header.php');
 				<div class="our-company-big-gray-box"></div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-						<div class="yellow-bar-top-image"></div>
-						<img src="./assets/images/multicultural-business-people-meeting-our-company.svg">
+						<div class="col-sm-12 col-md-5 col-lg-6">
+							<div class="yellow-bar-top-image"></div>
+							<img src="./assets/images/multicultural-business-people-meeting-our-company.svg">
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-12 col-md-7 col-lg-6">
 							<div class="our-company-first-contant-wrapper">
 								<p>ICAP is licensed by the Capital Market Authority (CMA) (License No. 11156-37) to offer the following services:</p>
 								<ul class="our-company-first-list-item">

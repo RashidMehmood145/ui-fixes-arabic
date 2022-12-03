@@ -5,7 +5,7 @@ include('header.php');
 			<section class="about-us-hero-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 col-md-12 col-lg-7">
+						<div class="col-sm-12 col-md-12 col-lg-7 carouselFirst">
 							<div class="about-us-hero-gray-box"></div>
 							<div class="about-us-hero-line-box"></div>
 							<div class="about-us-hero-content">
@@ -19,7 +19,7 @@ include('header.php');
 								<div class="bar-box-bottom-right"></div>
 							</div>
 						</div>
-						<div class="col-sm-12 col-md-12 col-lg-5">
+						<div class="col-sm-12 col-md-12 col-lg-5 carouselSecond">
 							<div class="about-us-hero-gray-box-list-items">
 								<div class="about-us-list-items">
 									<h5 class="about-us-team-name"><a href="./our-company.php" class=""><span class="about-us-team-value">Our Company</span></a></h5>
@@ -54,7 +54,7 @@ include('header.php');
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 									</div>	
-									<a class="learn-more-cta brokerage-padding-left">Learn More</a>	
+									<a href="./our-company.php" class="learn-more-cta brokerage-padding-left">Call to Action</a>	
 								</div>
 							</div>							
 						</div>
@@ -67,7 +67,7 @@ include('header.php');
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 								</div>	
-								<a class="learn-more-cta am-padding-left">Learn More</a>	
+								<a href="" class="learn-more-cta am-padding-left">Call to Action</a>	
 							</div>							
 						</div>
 						<div class="col-sm-12 col-md-5 col-lg-6 text-right">
@@ -97,7 +97,7 @@ include('header.php');
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 								</div>
-								<a class="learn-more-cta ib-padding-left">Learn More</a>	
+								<a href="" class="learn-more-cta ib-padding-left">Call to Action</a>	
 							</div>							
 						</div>
 					</div>
@@ -105,11 +105,11 @@ include('header.php');
 						<div class="col-sm-12 col-md-7 col-lg-6">
 							<div class="inner-col">
 								<h3 class="after-about-us-title"><span class="line-span"><img src="./assets/images/Line.svg"></span>Shariah  <span class="yellow-text-line">Board</span><h3>	
-								<div class="about-us-min-short-details re-padding-left">								
+								<div class="about-us-min-short-details">								
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 								</div>
-								<a class="learn-more-cta re-padding-left">Learn More</a>							
+								<a class="learn-more-cta re-padding-left">Call to Action</a>							
 							</div>							
 						</div>
 						<div class="col-sm-12 col-md-5 col-lg-6 text-right">
@@ -145,7 +145,7 @@ include('header.php');
 										</ul>
 									</div>	
 									
-									<a class="learn-more-cta brokerage-padding-left">Learn More</a>	
+									<a class="learn-more-cta brokerage-padding-left">Call to Action</a>	
 							</div>							
 						</div>
 					</div>

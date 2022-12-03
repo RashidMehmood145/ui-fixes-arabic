@@ -3,32 +3,40 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="services-hero-section">
-				<div class="services-hero-gray-box"></div>
-				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
-					<h2 class="services-hero-heading">SERVICES</h2>
-					<h3 class="services-hero-sub-heading">Brokerage</h3>
-					<div class="services-hero-short-details">Financial markets under your fingertips</div>
-				</div>
-				
-				<div class="services-hero-image">
-					<img src="./assets/images/brokerage-handshake-partnership-banner.svg">
-					<div class="bar-box-bottom-right"></div>
-				</div>
-				<div class="services-hero-gray-box-list-items">
-					<div class="services-list-items">
-						<h5 class="about-us-team-name"><a href="./brokerage.php" class="active"><span class="about-us-team-value">Brokerage</span></a></h5>
-						<h5 class="about-us-team-name"><a href="#"><span class="about-us-team-value">Asset management</span></a></h5>
-						<h5 class="about-us-team-name"><a href="#" class=""><span class="about-us-team-value">Investment Banking</span></a></h5>
-						<h5 class="about-us-team-name"><a href="#" class=""><span class="about-us-team-value">Real Estate</span></a></h5>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-7">
+							<div class="services-hero-gray-box"></div>
+							<div class="services-hero-line-box"></div>
+							<div class="services-hero-content">
+								<h2 class="services-hero-heading">SERVICES</h2>
+								<h3 class="services-hero-sub-heading">Brokerage</h3>
+								<div class="services-hero-short-details">Financial markets under your fingertips</div>
+							</div>
+							
+							<div class="services-hero-image">
+								<img src="./assets/images/brokerage-handshake-partnership-banner.svg">
+								<div class="bar-box-bottom-right"></div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-5">
+						<div class="services-hero-gray-box-list-items">
+								<div class="services-list-items">
+									<h5 class="about-us-team-name"><a href="./brokerage.php" class="active"><span class="about-us-team-value">Brokerage</span></a></h5>
+									<h5 class="about-us-team-name"><a href="#"><span class="about-us-team-value">Asset management</span></a></h5>
+									<h5 class="about-us-team-name"><a href="#" class=""><span class="about-us-team-value">Investment Banking</span></a></h5>
+									<h5 class="about-us-team-name"><a href="#" class=""><span class="about-us-team-value">Real Estate</span></a></h5>
+								</div>
+								
+							</div>
+						</div>
 					</div>
-					
 				</div>
 			</section>
 			<section class="after-services-hero-section">
 				<div class="container">
 					<div class="row vertical-tabs brokerage-tabs">
-						<div class="col-md-3">
+						<div class="col-md-3 d-en">
 							<!--------------------------->
 							<ul class="nav nav-tabs" role="tablist">
 								<li class="nav-item">
@@ -90,6 +98,24 @@ include('header.php');
 									<!--------------Row End--------------
 								</div>-->
 							</div>		
+						</div>
+
+						<div class="col-md-3 d-ar">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link brokerage-yellow-line active" data-target="./brokerage.php" href="./brokerage.php" >Overview</a>
+								</li>
+								<li class="nav-item">
+								    <a class="nav-link markets-yellow-line" data-target="./markets.php"  href="./markets.php" >Markets</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link channels-yellow-line" data-target="./channels.php" href="./channels.php" >Channels</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link margin-facility-yellow-line" data-target="./margin-facility.php" href="./margin-facility.php">Margin Facilityr</a>
+								</li>	
+							</ul>
 						</div>
 					</div>
 					<!--------------------------->
