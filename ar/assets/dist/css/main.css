@@ -9,18 +9,21 @@ body {
 .awareness-hero-line-box.new-client-hero-line-box-revamp,
 .privacy-hero-line-box.new-client-hero-line-box-revamp,
 .term-condition-hero-line-box.new-client-hero-line-box-revamp,
-.info-security-hero-line-box.new-client-hero-line-box-revamp {
+.info-security-hero-line-box.new-client-hero-line-box-revamp,
+.complaint-hero-line-box.new-client-hero-line-box-revamp {
   left: auto;
   right: 96px;
 }
-.new-client-hero-section-arabic .info-security-hero-image {
+.new-client-hero-section-arabic .info-security-hero-image,
+.new-client-hero-section-arabic .complaint-hero-image {
   width: auto;
 }
 .new-client-hero-content,
 .awareness-hero-content,
 .privacy-hero-content,
 .term-condition-hero-content,
-.info-security-hero-content {
+.info-security-hero-content,
+.complaint-hero-content {
   right: 206px;
   left: auto;
 }
@@ -55,6 +58,28 @@ body {
 .new-client-hero-section-arabic .privacy-hero-image,
 .new-client-hero-section-arabic .term-condition-hero-image {
   height: 552px;
+}
+.complaint-arabic h3.complaint-form-heading {
+  margin: 0 auto;
+  margin-right: 0px;
+}
+.complaint-arabic .complaint-form-heading::before {
+  right: -22px;
+  left: auto;
+}
+.complaint-arabic .complaint-form-heading span.short-yellow-line::after,
+.complaint-arabic .complaint-form-heading span.short-sub-yellow-line::after {
+  right: 82px;
+  left: auto;
+}
+.complaint-arabic .complaint-form {
+  direction: rtl;
+}
+.complaint-arabic .complaint-wrapper {
+  width: auto;
+}
+.complaint-arabic .complaint-heading {
+  width: auto;
 }
 @media (min-width: 576px) {
   .container-custom {
@@ -125,9 +150,13 @@ body {
   .new-client-hero-section-arabic .awareness-hero-image img,
   .new-client-hero-section-arabic .privacy-hero-image img,
   .new-client-hero-section-arabic .term-condition-hero-image img,
-  .new-client-hero-section-arabic .info-security-hero-image img {
+  .new-client-hero-section-arabic .info-security-hero-image img,
+  .new-client-hero-section-arabic .complaint-hero-image img {
     height: 100%;
     object-fit: cover;
+  }
+  .complaint-arabic .complaint-inner-info-wrapper {
+    width: 100%;
   }
   .vertical-tabs-arabic .threat-category-col {
     flex: auto;
@@ -147,6 +176,17 @@ body {
   .vertical-tabs-arabic .abou-knowledge-table .speculation-investing-saving {
     width: 800px;
   }
+  .complaint-arabic .complaint-form {
+    width: 100%;
+  }
+  .kyc-arabic .content-outer-line-container {
+  }
+  .kyc-arabic .KYC-Update-wrapper {
+    width: 100%;
+  }
+  .kyc-arabic .KYC-Update-wrapper input.form-control {
+    width: 100%;
+  }
 }
 @media (max-width: 992px) {
   .vertical-tabs-arabic.vertical-tabs .nav-tabs .nav-link {
@@ -158,7 +198,8 @@ body {
   .awareness-hero-line-box.new-client-hero-line-box-revamp,
   .privacy-hero-line-box.new-client-hero-line-box-revamp,
   .term-condition-hero-line-box.new-client-hero-line-box-revamp,
-  .info-security-hero-line-box.new-client-hero-line-box-revamp {
+  .info-security-hero-line-box.new-client-hero-line-box-revamp,
+  .complaint-hero-line-box.new-client-hero-line-box-revamp {
     right: 20px;
     /* width: auto; */
     max-width: 466px;
@@ -167,7 +208,8 @@ body {
   .new-client-hero-section-arabic .awareness-hero-content,
   .new-client-hero-section-arabic .privacy-hero-content,
   .new-client-hero-section-arabic .term-condition-hero-content,
-  .new-client-hero-section-arabic .info-security-hero-content {
+  .new-client-hero-section-arabic .info-security-hero-content,
+  .new-client-hero-section-arabic .complaint-hero-content {
     right: 60px;
   }
   .vertical-tabs-arabic a.snba-cta {
@@ -178,6 +220,18 @@ body {
     display: block;
     margin-top: 30px;
   }
+  .complaint-arabic .complaint-inner-form-wrapper .input-group {
+    width: 100%;
+  }
+  .after-update-kyc-hero-section.kyc-arabic {
+    margin-top: -60px;
+  }
+  .kyc-arabic .content-outer-line-container {
+    padding: 100px 30px 100px 30px;
+  }
+  .kyc-arabic .KYC-Update-wrapper {
+    padding: 40px 40px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -185,7 +239,8 @@ body {
   .awareness-hero-line-box.new-client-hero-line-box-revamp,
   .privacy-hero-line-box.new-client-hero-line-box-revamp,
   .term-condition-hero-line-box.new-client-hero-line-box-revamp,
-  .info-security-hero-line-box.new-client-hero-line-box-revamp {
+  .info-security-hero-line-box.new-client-hero-line-box-revamp,
+  .complaint-hero-line-box.new-client-hero-line-box-revamp {
     right: 20px;
     max-width: 90%;
   }
@@ -193,7 +248,8 @@ body {
   .new-client-hero-section-arabic .awareness-hero-content,
   .new-client-hero-section-arabic .privacy-hero-content,
   .new-client-hero-section-arabic .term-condition-hero-content,
-  .new-client-hero-section-arabic .info-security-hero-content {
+  .new-client-hero-section-arabic .info-security-hero-content,
+  .new-client-hero-section-arabic .complaint-hero-content {
     top: 260px;
   }
   .vertical-tabs-arabic .accordion > .card > .card-header button.btn {
@@ -210,5 +266,29 @@ body {
   .new-client-hero-section-arabic .term-condition-hero-sub-heading,
   .new-client-hero-section-arabic .info-security-hero-sub-heading {
     width: auto;
+  }
+  .complaint-arabic .complaint-form {
+    padding-inline: 40px;
+  }
+  .complaint-arabic .complaint-form-heading span.short-yellow-line::after {
+    right: 56px;
+    width: 300px;
+  }
+  .complaint-arabic .complaint-form-heading span.short-sub-yellow-line::after {
+    width: 209px;
+    right: 56px;
+  }
+  .complaint-arabic h3.complaint-form-heading {
+    width: 367px;
+  }
+  .kyc-arabic .content-outer-line-container {
+    padding: 100px 15px 100px 15px;
+    margin: 0 20px;
+  }
+  .kyc-arabic .KYC-Update-wrapper {
+    padding: 40px 15px;
+  }
+  .after-update-kyc-hero-section.kyc-arabic {
+    margin-top: -30px;
   }
 }
