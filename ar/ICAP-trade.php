@@ -124,24 +124,6 @@ include('header.php');
 						</div>
 					</div>
 				</div>		
-			</section>				
-			<section class="befor-footer-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="inner-col">
-								<div class="befor-footer-box">
-									<h3 class="befor-footer-heading">ABOUT US</h3>
-									<h2 class="befor-footer-main-heading">Invest with us</h2>
-									<div class="befor-footer-yellow-btn-box">
-										<a class="befor-footer-cta" href="#">Start investing <img src="./assets/images/right-arrow.svg"> </a>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
 			</section>
 		</main>
 			<?php
