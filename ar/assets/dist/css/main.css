@@ -81,6 +81,10 @@ body {
 .complaint-arabic .complaint-heading {
   width: auto;
 }
+.trade-arabic .icap-fund-type-wrapper {
+  width: 100%;
+  /* height: 525px; */
+}
 @media (min-width: 576px) {
   .container-custom {
     max-width: 540px;
@@ -145,6 +149,12 @@ body {
 }
 
 /* responsiveness  */
+
+@media (max-width: 1399px) {
+  .trade-arabic .content-outer-line-container {
+    padding: 205px 20px 100px 20px;
+  }
+}
 @media (max-width: 1199px) {
   .new-client-hero-section-arabic .new-client-hero-image img,
   .new-client-hero-section-arabic .awareness-hero-image img,
@@ -192,6 +202,12 @@ body {
   .vertical-tabs-arabic.vertical-tabs .nav-tabs .nav-link {
     padding-right: 23px !important;
   }
+  .after-icap-fund-hero-section.trade-arabic {
+    margin-top: -75px;
+  }
+  .trade-arabic .content-outer-line-container {
+    padding: 140px 20px 100px 20px;
+  }
 }
 @media (max-width: 767px) {
   .new-client-hero-line-box.new-client-hero-line-box-revamp,
@@ -231,6 +247,9 @@ body {
   }
   .kyc-arabic .KYC-Update-wrapper {
     padding: 40px 40px;
+  }
+  .after-icap-fund-hero-section.trade-arabic {
+    margin-top: -55px;
   }
 }
 
@@ -290,5 +309,8 @@ body {
   }
   .after-update-kyc-hero-section.kyc-arabic {
     margin-top: -30px;
+  }
+  .after-icap-fund-hero-section.trade-arabic {
+    margin-top: -40px;
   }
 }
