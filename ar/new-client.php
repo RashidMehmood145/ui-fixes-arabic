@@ -2,11 +2,11 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="new-client-hero-section">
-				<div class="new-client-hero-line-box"></div>
+			<section class="new-client-hero-section new-client-hero-section-arabic">
+				<div class="new-client-hero-line-box new-client-hero-line-box-revamp"></div>
 				<div class="new-client-hero-content">
-					<h2 class="new-client-hero-heading">Alistithmar Capital</h2>
-					<h3 class="new-client-hero-sub-heading">New Client</h3>
+					<h2 class="new-client-hero-heading rtl">Alistithmar Capital</h2>
+					<h3 class="new-client-hero-sub-heading rtl">New Client</h3>
 				</div>
 				
 				<div class="new-client-hero-image">
@@ -17,40 +17,26 @@ include('header.php');
 			
 			<!---------Content here------------>
 			<section class="after-careers-hero-section">
-				<div class="container">
-					<div class="row vertical-tabs careers-tabs">
-						<div class="col-md-4">
-							<!--------------------------->
-							<ul class="nav nav-tabs" role="tablist">
-								<li class="nav-item">
-								  <a class="nav-link Overview active" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview">Overview</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link Account" data-toggle="tab" href="#Account" role="tab" aria-controls="After Activating your Account">After Activating your Account</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link faq" data-toggle="tab" href="#Faq" role="tab" aria-controls=" Q&A"> Q&A </a>
-								</li>							
-							</ul>
-						</div>
-						<div  class="col-md-8 careers-category-col">
+				<div class="container-custom">
+					<div class="row vertical-tabs vertical-tabs-arabic careers-tabs">
+						<div class="col-xl-8 order-1 order-xl-0   careers-category-col">
 							<div class="tab-content">
 								<div class="tab-pane active" id="Overview" role="tabpanel">
 									<div class="row">	
 										<div  class="col-md-12">
 											<div class="new-client-content-wrapper">
-												<p>Dear Investor</p>
-												<p>Thank you for choosing Alistithmar Capital as your investment partner.  We look forward to achieve the highest added value to your investments.</p>
-												<p>For your convenience, we have made it simple now to setup your investment account by filling an online form and follow the following steps:</p>
-												<ol>
-													<li>In order to open an Investment Account, you must have a bank account with SAIB Bank. If you don’t have a bank account, please <b>click here</b> to open a new one or visit the <b><a href="#">nearest SAIB branch</a></b>.</li>
-													<li>Complete the online application to setup your new Investment Account for <b>Local Market</b> by <b><a href="#">clicking here</a></b></li>
-													<li>Complete the online application to setup your new Investment Account for <b>International Market</b> by <b><a href="#">clicking here</a></b>. Please note that you are required to open Investment Account for Local Market before the International Market.</li>
-													<li>Once finished with the application, you will be prompted that we have received your application, and we will send you sms message notifying you that your request has been executed.</li>
+												<p class="rtl">Dear Investor</p>
+												<p class="rtl">Thank you for choosing Alistithmar Capital as your investment partner.  We look forward to achieve the highest added value to your investments.</p>
+												<p class="rtl">For your convenience, we have made it simple now to setup your investment account by filling an online form and follow the following steps:</p>
+												<ol class="rtl">
+													<li class="rtl">In order to open an Investment Account, you must have a bank account with SAIB Bank. If you don’t have a bank account, please <b>click here</b> to open a new one or visit the <b><a href="#">nearest SAIB branch</a></b>.</li>
+													<li class="rtl">Complete the online application to setup your new Investment Account for <b>Local Market</b> by <b><a href="#">clicking here</a></b></li>
+													<li class="rtl">Complete the online application to setup your new Investment Account for <b>International Market</b> by <b><a href="#">clicking here</a></b>. Please note that you are required to open Investment Account for Local Market before the International Market.</li>
+													<li class="rtl">Once finished with the application, you will be prompted that we have received your application, and we will send you sms message notifying you that your request has been executed.</li>
 												</ol>
-												<div class="new-client-content-cta-wrapper">
-													<a href="#" class="snba-cta">Setup New Bank Account</a>
-													<a href="#" class="snia-cta">Setup New  Investment Account</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="#" class="snba-cta rtl">Setup New Bank Account</a>
+													<a href="#" class="snia-cta rtl">Setup New  Investment Account</a>
 												</div>
 											</div>
 										</div>
@@ -61,22 +47,22 @@ include('header.php');
 									<div class="row">
 										<div  class="col-md-12">
 											<div class="new-client-content-wrapper">
-												<p>Dear Investor</p>
+												<p class="rtl">Dear Investor</p>
 
-												<p>For your convenience,  you can  access your account, view reports, update your information, submit transactions, and transfer money from your investment account to your bank account through the following channels:</p>
+												<p class="rtl">For your convenience,  you can  access your account, view reports, update your information, submit transactions, and transfer money from your investment account to your bank account through the following channels:</p>
 
-												<ol>
-													<li>ICAP’s online platform “Istithmarcom”: To register on our online platform (Istithmarcom), please  visit and follow the steps in the registration page: please click here</li>
-													<li>ICAP’s Telephone Service: To register on our telephone services, please call (800) 124-8282 and follow the steps</li>
-													<li>To utilize our smart phone and tablet apps, please visit Apple or Android stores and search for “Alistithmar Capital” app.</li>
+												<ol class="rtl">
+													<li class="rtl">ICAP’s online platform “Istithmarcom”: To register on our online platform (Istithmarcom), please  visit and follow the steps in the registration page: please click here</li>
+													<li class="rtl">ICAP’s Telephone Service: To register on our telephone services, please call (800) 124-8282 and follow the steps</li>
+													<li class="rtl">To utilize our smart phone and tablet apps, please visit Apple or Android stores and search for “Alistithmar Capital” app.</li>
 												</ol>
-												<p>If you prefer to manage your portfolio, we recommend you to get familiar with the rules and regulations of the Capital Market Authority (CMA) www.cma.gov.sa</p>
-												<p>If you need help to diversify your investments and take advantage of our expertise and outstanding performance,  please contact us at:</p>
-												<p><img src="./assets/images/at.svg"> <b>info@company.com</b></p>
-												<p><img src="./assets/images/phone.svg"> <b>+1 (234) 5678 900</b></p>
-												<p>Thank you for joining Alistithmar Capital (ICAP) and we look forward to serving you in the new future.</p>
-												<div class="new-client-content-cta-wrapper">
-													<a href="" class="snba-cta">Setup New Bank Account</a><a href="#" class="snia-cta">Setup New  Investment Account</a>
+												<p class="rtl">If you prefer to manage your portfolio, we recommend you to get familiar with the rules and regulations of the Capital Market Authority (CMA) www.cma.gov.sa</p>
+												<p class="rtl">If you need help to diversify your investments and take advantage of our expertise and outstanding performance,  please contact us at:</p>
+												<p class="rtl"><img src="./assets/images/at.svg"> <b>info@company.com</b></p>
+												<p class="rtl"><img src="./assets/images/phone.svg"> <b>+1 (234) 5678 900</b></p>
+												<p class="rtl">Thank you for joining Alistithmar Capital (ICAP) and we look forward to serving you in the new future.</p>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="" class="snba-cta rtl">Setup New Bank Account</a><a href="#" class="snia-cta rtl">Setup New  Investment Account</a>
 												</div>
 											</div>
 										</div>
@@ -88,7 +74,7 @@ include('header.php');
 									<div class="row">
 										<div  class="col-md-12">
 											<div class="new-client-content-wrapper">
-												<div class="accordion" id="accordion_faq_resource">
+												<div class="accordion rtl" id="accordion_faq_resource">
 												  <div class="card">
 													<div class="card-header" id="heading1">
 													  <h2 class="mb-0">
@@ -362,8 +348,8 @@ include('header.php');
 												  </div>
 												</div>
 											<!----------accordion END---------->
-												<div class="new-client-content-cta-wrapper">
-													<a href="" class="snba-cta">Setup New Bank Account</a><a href="#" class="snia-cta">Setup New  Investment Account</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="" class="snba-cta rtl">Setup New Bank Account</a><a href="#" class="snia-cta rtl">Setup New  Investment Account</a>
 												</div>
 											</div>
 										</div>
@@ -372,6 +358,21 @@ include('header.php');
 								</div>
 							</div>		
 						</div>
+						<div class="col-xl-4 order-0 order-xl-1">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link Overview active" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview">Overview</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link Account" data-toggle="tab" href="#Account" role="tab" aria-controls="After Activating your Account">After Activating your Account</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link faq" data-toggle="tab" href="#Faq" role="tab" aria-controls=" Q&A"> Q&A </a>
+								</li>							
+							</ul>
+						</div>
+						
 					</div>
 					<!--------------------------->
 				</div>

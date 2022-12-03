@@ -2,11 +2,11 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="awareness-hero-section">
-				<div class="awareness-hero-line-box"></div>
+			<section class="awareness-hero-section new-client-hero-section-arabic">
+				<div class="awareness-hero-line-box new-client-hero-line-box-revamp"></div>
 				<div class="awareness-hero-content">
-					<h2 class="awareness-hero-heading">Alistithmar Capital</h2>
-					<h3 class="awareness-hero-sub-heading">Investor's Awareness</h3>
+					<h2 class="awareness-hero-heading rtl">Alistithmar Capital</h2>
+					<h3 class="awareness-hero-sub-heading rtl">Investor's Awareness</h3>
 				</div>
 				
 				<div class="awareness-hero-image">
@@ -17,53 +17,36 @@ include('header.php');
 			
 			<!---------Content here------------>
 			<section class="after-awareness-hero-section">
-				<div class="container">
-					<div class="row vertical-tabs careers-tabs">
-						<div class="col-md-4">
-							<!--------------------------->
-							<ul class="nav nav-tabs" role="tablist">
-								<li class="nav-item">
-								  <a class="nav-link Overview active" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview">Overview</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link Knowledge" data-toggle="tab" href="#Knowledge" role="tab" aria-controls="Knowledge">Knowledge</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link faq" data-toggle="tab" href="#Faq" role="tab" aria-controls=" Q&A"> Q&A </a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link cma1" data-toggle="tab" href="#CMA" role="tab" aria-controls=" CMA Awareness Publications"> CMA Awareness Publications </a>
-								</li>								
-							</ul>
-						</div>
-						<div  class="col-md-8 careers-category-col">
+				<div class="container-custom">
+					<div class="row vertical-tabs vertical-tabs-arabic careers-tabs">
+						<div  class="col-xl-8 careers-category-col order-1 order-xl-0 ">
 							<div class="tab-content">
 								<div class="tab-pane active" id="Overview" role="tabpanel">
 									<div class="row">	
 										<div  class="col-md-12">
 											<div class="awareness-content-wrapper">
-												<p><b>There are only two ways to make money :</b></p>
-												<ul>
-													<li>By working and/or</li>
-													<li>By having your assets work for you.</li>
+												<p class="rtl"><b>There are only two ways to make money :</b></p>
+												<ul class="rtl">
+													<li class="rtl">By working and/or</li>
+													<li class="rtl">By having your assets work for you.</li>
 												</ul>
-												<p>By having your assets work for you.</p>
-												<p>One of the most compelling reasons for you to invest is the prospect of not having to work your entire life!</p>
+												<p class="rtl">By having your assets work for you.</p>
+												<p class="rtl">One of the most compelling reasons for you to invest is the prospect of not having to work your entire life!</p>
 
-												<p>If you keep your money in your bank account instead of investing it, your money doesn’t work for you and you will never have more money than what you save.</p>
+												<p class="rtl">If you keep your money in your bank account instead of investing it, your money doesn’t work for you and you will never have more money than what you save.</p>
 
-												<p>By investing your money, you are getting your money to generate more money by earning interest on what you put away or by buying and selling assets that increase in value.</p>
+												<p class="rtl">By investing your money, you are getting your money to generate more money by earning interest on what you put away or by buying and selling assets that increase in value.</p>
 
-												<p>Whether your goal is to send your kids to college, buy a home, or to retire comfortably, <b>investing is essential to getting you where you want to be</b>.</p>
+												<p class="rtl">Whether your goal is to send your kids to college, buy a home, or to retire comfortably, <b>investing is essential to getting you where you want to be</b>.</p>
 
-												<p>Whether you invest in stocks, bonds, mutual funds, options and futures, precious metals, real estate, your own small business , or any combination thereof, <b>the objectives are the same :</b></p>
-												<ol>
-													<li>Preserve your wealth</li>
-													<li>Grow your wealth</li>
-													<li>Generate additional income</li>
+												<p class="rtl">Whether you invest in stocks, bonds, mutual funds, options and futures, precious metals, real estate, your own small business , or any combination thereof, <b>the objectives are the same :</b></p>
+												<ol class="rtl">
+													<li class="rtl">Preserve your wealth</li>
+													<li class="rtl">Grow your wealth</li>
+													<li class="rtl">Generate additional income</li>
 												</ol>
-												<div class="new-client-content-cta-wrapper">
-													<a href="#" class="snba-cta">For help, please call us</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="#" class="snba-cta rtl">For help, please call us</a>
 												</div>
 											</div>
 										</div>
@@ -75,12 +58,12 @@ include('header.php');
 										<div  class="col-md-12">
 											<div class="awareness-content-wrapper">
 												<h3></h3>
-												<h3 class="threat-malware-heading ">Speculation vs. Investing vs. Saving<span class="yellow-behind-line speculation-investing-saving-line"></span></h3>
-												<p>For your convenience,  you can  access your account, view reports, update your information, submit transactions, and transfer money from your investment account to your bank account through the following channels:</p>
-												<p style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Saving:</b><span></span></span> Putting your money in a saving account or cash deposits.  Returns from savings are usually what the bank pays you before lending your money to someone else; so your returns must be less than what the bank charges for a loan.<p>
-												<p style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Investing:</b><span></span></span> Putting your money into listed stocks, properties, or your business with the expectation to receive profits or sell these assets for a higher price.</p>
-												<p style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Speculation:</b><span></span></span>  Seeking to make abnormally high returns from bets that can go one way or the other.  Those, speculators only trade on assets with high volatility (Risk).</p>
-												<div class="abou-knowledge-table">
+												<h3 class="threat-malware-heading rtl">Speculation vs. Investing vs. Saving<span class="yellow-behind-line speculation-investing-saving-line rtl"></span></h3>
+												<p class="rtl">For your convenience,  you can  access your account, view reports, update your information, submit transactions, and transfer money from your investment account to your bank account through the following channels:</p>
+												<p class="rtl" style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Saving:</b><span></span></span> Putting your money in a saving account or cash deposits.  Returns from savings are usually what the bank pays you before lending your money to someone else; so your returns must be less than what the bank charges for a loan.<p>
+												<p class="rtl" style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Investing:</b><span></span></span> Putting your money into listed stocks, properties, or your business with the expectation to receive profits or sell these assets for a higher price.</p>
+												<p class="rtl" style="position: relative;"><span class="span-square -box"></span><span class="heading-box-text"><b>Speculation:</b><span></span></span>  Seeking to make abnormally high returns from bets that can go one way or the other.  Those, speculators only trade on assets with high volatility (Risk).</p>
+												<div class="abou-knowledge-table rtl">
 													<div class="speculation-investing-saving">
 														<div class="td-row">
 															<div class="td-col1 account-type"></div>
@@ -120,49 +103,48 @@ include('header.php');
 														</div>				  
 													</div>												
 												</div>
-												<h3 class="threat-malware-heading">Risk and Return<span class="yellow-behind-line risk-return-line"></span></h3>
-												<p>The main two factors you should be aware of when deciding whether to save, invest, or speculate are Risk and Return.</p>
-												<p>Risk: the chance that an investment’s actual return will be different from expected. Therefore, Investment Risk is a person’s inability to pinpoint the outcome of an investment, regardless if positive or negative. </p>
-												<p class="span-square-box-para"><span class="span-square-box"></span><b>Risk: the chance that an investment’s actual return will be different from expected. Therefore, Investment Risk is a person’s inability to pinpoint the outcome of an investment, regardless if positive or negative.	<br>There are many types of Investment Risks, but the most common type that many people tend to overlook is “Concentration Risk”.  Concentration Risk is putting your money in one asset class or few securities.</b></p>
-												<p class="span-square-box-para"><span class="span-square-box"></span><b>Return: the return from the investment that could be positive (profit) or negative (loss).  There are 3 determinants of a portfolio’s return:</b></p>
-												<ol>
-													<li>Asset Allocation: diversifying your money among different asset classes and securities</li>
-													<li>Security Selection: Seeking under-priced asset and hope its market price will go up to its intrinsic value before selling it for higher price</li>
-													<li>Market Timing: Trying to predict the best time to buy or sell an asset.</li>												
+												<h3 class="threat-malware-heading rtl">Risk and Return<span class="yellow-behind-line risk-return-line"></span></h3>
+												<p class="rtl">The main two factors you should be aware of when deciding whether to save, invest, or speculate are Risk and Return.</p>
+												<p class="rtl">Risk: the chance that an investment’s actual return will be different from expected. Therefore, Investment Risk is a person’s inability to pinpoint the outcome of an investment, regardless if positive or negative. </p>
+												<p class="span-square-box-para rtl"><span class="span-square-box"></span><b>Risk: the chance that an investment’s actual return will be different from expected. Therefore, Investment Risk is a person’s inability to pinpoint the outcome of an investment, regardless if positive or negative.	<br>There are many types of Investment Risks, but the most common type that many people tend to overlook is “Concentration Risk”.  Concentration Risk is putting your money in one asset class or few securities.</b></p>
+												<p class="span-square-box-para rtl"><span class="span-square-box"></span><b>Return: the return from the investment that could be positive (profit) or negative (loss).  There are 3 determinants of a portfolio’s return:</b></p>
+												<ol class="rtl">
+													<li class="rtl">Asset Allocation: diversifying your money among different asset classes and securities</li>
+													<li class="rtl">Security Selection: Seeking under-priced asset and hope its market price will go up to its intrinsic value before selling it for higher price</li>
+													<li class="rtl">Market Timing: Trying to predict the best time to buy or sell an asset.</li>												
 												</ol>
-												<p>The <b>Asset Allocation</b> method has proven to be the best method with 94% success rate.</p>
-												<h3 class="threat-malware-heading">Mutual Funds<span class="yellow-behind-line mutual-funds-line"></span></h3>
+												<p class="rtl">The <b>Asset Allocation</b> method has proven to be the best method with 94% success rate.</p>
+												<h3 class="threat-malware-heading rtl">Mutual Funds<span class="yellow-behind-line mutual-funds-line"></span></h3>
 												
-												<p>A mutual fund is a collection of stocks and/or bonds that is funded by investors (like you) with clear strategy and is professionally managed.</p>
+												<p class="rtl">A mutual fund is a collection of stocks and/or bonds that is funded by investors (like you) with clear strategy and is professionally managed.</p>
 
-												<p>Mutual funds offer <b>small investors</b> (< SAR 20 million) the <b>ability to hire a professional fund manager</b> with a very small fee (usually < 2%  per year)</p>
+												<p class="rtl">Mutual funds offer <b>small investors</b> (< SAR 20 million) the <b>ability to hire a professional fund manager</b> with a very small fee (usually < 2%  per year)</p>
 
-												<p>Almost every fund manager in Saudi offers mutual funds with similar strategies.</p>
+												<p class="rtl">Almost every fund manager in Saudi offers mutual funds with similar strategies.</p>
 
-												<p>However, an investor should be aware that there are mutual funds that are conventional or Shariah compliant. Even thou they invest in the same market, however, their Benchmarks and or strategies are different.</p>
+												<p class="rtl">However, an investor should be aware that there are mutual funds that are conventional or Shariah compliant. Even thou they invest in the same market, however, their Benchmarks and or strategies are different.</p>
 
-												<p>An investor should invest in a mutual fund that fits with his strategy and preference.</p>
+												<p class="rtl">An investor should invest in a mutual fund that fits with his strategy and preference.</p>
 												
-												<h3 class="threat-malware-heading">Evaluate Performance<span class="yellow-behind-line evaluate-performance-line"></span></h3>
-												<p>Many investors, when assessing performance, make common mistakes by using “Absolute Performance” rather than “Relative Performance”.</p>
-												<p class="span-square-box-para"><span class="span-square-box"></span><b>Absolute Performance</b>:  seeking positive return regardless of benchmark return.  For example, an investor expects 10% return regardless if market is up or down.  This could pressure your fund manager to take extra risk in order to deliver positive returns.</p>
-												<p class="span-square-box-para"><span class="span-square-box"></span><b>Relative Performance</b>:  seeking reasonable return above benchmark’s return.  For example, an investor expects 3% return above benchmark.</p>
+												<h3 class="threat-malware-heading rtl">Evaluate Performance<span class="yellow-behind-line evaluate-performance-line"></span></h3>
+												<p class="rtl">Many investors, when assessing performance, make common mistakes by using “Absolute Performance” rather than “Relative Performance”.</p>
+												<p class="span-square-box-para rtl"><span class="span-square-box"></span><b>Absolute Performance</b>:  seeking positive return regardless of benchmark return.  For example, an investor expects 10% return regardless if market is up or down.  This could pressure your fund manager to take extra risk in order to deliver positive returns.</p>
+												<p class="span-square-box-para rtl"><span class="span-square-box"></span><b>Relative Performance</b>:  seeking reasonable return above benchmark’s return.  For example, an investor expects 3% return above benchmark.</p>
 
-												<p><b>If benchmark return is 10%, investor expects 13%;<br>If benchmark’s return is -10%, investor expects -7% returns.</b></p>
-												<p><b>Investor should always base their decision</b> when assessing mutual fund or fund manager’s performance <b>on the Relative Performance.</b></p>
-												<h3 class="threat-malware-heading">Benchmark<span class="yellow-behind-line benchmark-line"></span></h3>
-												<p>A benchmark is a standard against which the performance of a security, mutual funds, or a fund manager can be measured.</p>
-												<p>Therefore, if you want to know if a mutual fund is performing well or not, compare its long-term performance (3 years or more) with the benchmark performance.</p>
-												<p>If you want to <b>compare the performance</b> of 2 or more mutual funds, <b>make sure they have the same benchmark and strategy</b>.  For example:</p>
-												<ul>
-													<li>You should not compare 2 mutual funds invest in Tadawul, but one is sharia compliant and the other is conventional (two different benchmarks)</li>
-													<li>You should not compare 2 conventional mutual funds invest in Tadawul, but one has growth strategy and the other is income strategy (two different strategies)</li>
+												<p class="rtl"><b>If benchmark return is 10%, investor expects 13%;<br>If benchmark’s return is -10%, investor expects -7% returns.</b></p>
+												<p class="rtl"><b>Investor should always base their decision</b> when assessing mutual fund or fund manager’s performance <b>on the Relative Performance.</b></p>
+												<h3 class="threat-malware-heading rtl">Benchmark<span class="yellow-behind-line benchmark-line"></span></h3>
+												<p class="rtl">A benchmark is a standard against which the performance of a security, mutual funds, or a fund manager can be measured.</p>
+												<p class="rtl">Therefore, if you want to know if a mutual fund is performing well or not, compare its long-term performance (3 years or more) with the benchmark performance.</p>
+												<p class="rtl">If you want to <b>compare the performance</b> of 2 or more mutual funds, <b>make sure they have the same benchmark and strategy</b>.  For example:</p>
+												<ul class="rtl">
+													<li class="rtl">You should not compare 2 mutual funds invest in Tadawul, but one is sharia compliant and the other is conventional (two different benchmarks)</li>
+													<li class="rtl">You should not compare 2 conventional mutual funds invest in Tadawul, but one has growth strategy and the other is income strategy (two different strategies)</li>
 												</ul>
-												<p><b>Benchmarks</b> are an amazing <b>tool to evaluate performance</b> ; however, you should also <b>consider the risk factor</b>.  You can have a mutual fund outperforming a benchmark, but with higher risks or vice versa.</p>
-</p>
+												<p class="rtl"><b>Benchmarks</b> are an amazing <b>tool to evaluate performance</b> ; however, you should also <b>consider the risk factor</b>.  You can have a mutual fund outperforming a benchmark, but with higher risks or vice versa.</p></p>
 												
-												<div class="new-client-content-cta-wrapper">
-													<a href="" class="snba-cta">For help, please call us</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="" class="snba-cta rtl">For help, please call us</a>
 												</div>
 											</div>
 										</div>
@@ -174,7 +156,7 @@ include('header.php');
 									<div class="row">
 										<div  class="col-md-12">
 											<div class="new-client-content-wrapper">
-												<div class="accordion" id="accordion_faq_resource">
+												<div class="accordion rtl" id="accordion_faq_resource">
 												  <div class="card">
 													<div class="card-header" id="heading1">
 													  <h2 class="mb-0">
@@ -291,8 +273,8 @@ include('header.php');
 												  
 												</div>
 											<!----------accordion END---------->
-												<div class="new-client-content-cta-wrapper">
-													<a href="" class="snba-cta">Setup New Bank Account</a><a href="#" class="snia-cta">Setup New  Investment Account</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="" class="snba-cta rtl">Setup New Bank Account</a><a href="#" class="snia-cta">Setup New  Investment Account</a>
 												</div>
 											</div>
 										</div>
@@ -303,7 +285,7 @@ include('header.php');
 									<div class="row">
 										<div  class="col-md-12">
 											<div class="new-client-content-wrapper">
-												<div class="accordion" id="accordion_faq_resource">
+												<div class="accordion rtl" id="accordion_faq_resource">
 												  <div class="card">
 													<div class="card-header" id="heading1">
 													  <h2 class="mb-0">
@@ -346,8 +328,8 @@ include('header.php');
 												  
 												  
 												</div>
-												<div class="new-client-content-cta-wrapper">
-													<a href="" class="snba-cta">For help, please call us</a>
+												<div class="new-client-content-cta-wrapper text-right">
+													<a href="" class="snba-cta rtl">For help, please call us</a>
 												</div>
 											</div>
 										</div>
@@ -357,6 +339,24 @@ include('header.php');
 								</div>
 							</div>		
 						</div>
+						<div class="col-xl-4 order-0 order-xl-1">
+							<!--------------------------->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-link Overview active" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview">Overview</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link Knowledge" data-toggle="tab" href="#Knowledge" role="tab" aria-controls="Knowledge">Knowledge</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link faq" data-toggle="tab" href="#Faq" role="tab" aria-controls=" Q&A"> Q&A </a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-link cma1" data-toggle="tab" href="#CMA" role="tab" aria-controls=" CMA Awareness Publications"> CMA Awareness Publications </a>
+								</li>								
+							</ul>
+						</div>
+						
 					</div>
 					<!--------------------------->
 				</div>

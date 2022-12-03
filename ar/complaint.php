@@ -2,11 +2,11 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="complaint-hero-section">
-				<div class="complaint-hero-line-box"></div>
+			<section class="complaint-hero-section new-client-hero-section-arabic">
+				<div class="complaint-hero-line-box new-client-hero-line-box-revamp"></div>
 				<div class="complaint-hero-content">
-					<h2 class="complaint-hero-heading">Alistithmar Capital</h2>
-					<h3 class="complaint-hero-sub-heading">Complaint</h3>
+					<h2 class="complaint-hero-heading rtl">Alistithmar Capital</h2>
+					<h3 class="complaint-hero-sub-heading rtl">Complaint</h3>
 				</div>
 				
 				<div class="complaint-hero-image">
@@ -17,36 +17,18 @@ include('header.php');
 			
 			<!---------Content here------------>
 			<!---------Content here------------>
-			<section class="after-complaint-us-hero-section">
-				<div class="container">
+			<section class="after-complaint-us-hero-section complaint-arabic">
+				<div class="container-custom">
 					<div class="row">
-						<div class="col-md-6">
-							<div class="complaint-wrapper">
-								<h3 class="complaint-heading"><span>Dear Customer :</span></h3>
-								<div class="complaint-inner-wrapper">
-									<div class="complaint-inner-info-wrapper">
-										<p>You can submit your complaint through multiple channels as you see convenient:</p>
-										<ul>
-											<li>Complaints Unit , phone:  (800) 124-8282 Ext: 5 (after providing your login details)</li>
-											<li>Fax: (+966 11) 489-6270 addressed to Complaints Unit</li>
-											<li>Mail – P.O Box 6888, Riyadh, 11452 addressed to Complaints Unit</li>
-											<li>Walk in through to Complaints Unit staff at Head Office.</li>
-										<ul>
-									</div>
-								
-								</div>	<!--------complaint-inner-wrapper------->	
-							</div>	
-							<!-------------------------------------------------->
-						</div>
-						<div  class="col-md-6">
+						<div  class="col-xl-6 order-1 order-xl-0">
 							<div class="complaint-form">
-								<h3 class="complaint-form-heading">
-									<span class="complaint-form-title">Please fill out the form below to submit</span><span class="short-yellow-line"></span>
-									<span class="complaint-form-title">your complaint</span><span class="short-sub-yellow-line"></span>
+								<h3 class="complaint-form-heading rtl">
+									<span class="complaint-form-title rtl">Please fill out the form below to submit</span><span class="short-yellow-line"></span>
+									<span class="complaint-form-title rtl">your complaint</span><span class="short-sub-yellow-line"></span>
 								</h3>
 								<form class="complaint-inner-form-wrapper">
 									<div class="form-group">
-										<div class="input-group">
+										<div class="input-group rtl">
 											<div class="input-group-addon">
 											  <img src="./assets/images/at-icon.svg">
 											</div>
@@ -54,7 +36,7 @@ include('header.php');
 										 </div>
 									</div>
 									<div class="form-group">
-										<div class="input-group">
+										<div class="input-group rtl">
 											<div class="input-group-addon">
 											  <img src="./assets/images/select-Icons.svg">
 											</div>
@@ -62,7 +44,7 @@ include('header.php');
 										 </div>
 									</div>
 									<div class="form-group">
-										<div class="input-group">
+										<div class="input-group rtl">
 											<div class="input-group-addon">
 											 <img src="./assets/images/title-icon.svg">
 											</div>
@@ -70,18 +52,37 @@ include('header.php');
 										 </div>
 									</div>
 									<div class="form-group">
-										<div class="input-group message-input-group ">
+										<div class="input-group message-input-group rtl">
 											<div class="input-group-addon">
 											  <img src="./assets/images/message-icon.svg">
 											</div>
 											<textarea class="form-control" id="message" name="message" type="text" placeholder="The Complaint"/></textarea>
 										 </div>
 									</div>
-									<button type="submit" class="btn btn-complaint-form-btn">Send</button>
+									<button type="submit" class="btn btn-complaint-form-btn rtl">Send</button>
 								
 								</form>
 							</div>	
 						</div>
+						<div class="col-xl-6 order-0 order-xl-1">
+							<div class="complaint-wrapper">
+								<h3 class="complaint-heading rtl"><span>Dear Customer :</span></h3>
+								<div class="complaint-inner-wrapper">
+									<div class="complaint-inner-info-wrapper">
+										<p class="rtl">You can submit your complaint through multiple channels as you see convenient:</p>
+										<ul class="rtl">
+											<li class="rtl">Complaints Unit , phone:  (800) 124-8282 Ext: 5 (after providing your login details)</li>
+											<li class="rtl">Fax: (+966 11) 489-6270 addressed to Complaints Unit</li>
+											<li class="rtl">Mail – P.O Box 6888, Riyadh, 11452 addressed to Complaints Unit</li>
+											<li class="rtl">Walk in through to Complaints Unit staff at Head Office.</li>
+										<ul>
+									</div>
+								
+								</div>	<!--------complaint-inner-wrapper------->	
+							</div>	
+							<!-------------------------------------------------->
+						</div>
+						
 					</div>
 					<!-------------Row END-------------->
 				</div>

@@ -29,8 +29,12 @@
 			</style>    
 			<!-- Custom styles for this template -->
 			<link href="style.css" rel="stylesheet">
+			<link href="./assets/dist/css/main.css" rel="stylesheet">
+			<link href="custom.css" rel="stylesheet">
+
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 		</head>
-		<body>
+		<body class="ar">
 		    <header>
 				<div class="stock-price-header">
 					<marquee>
@@ -70,7 +74,7 @@
 								</div>
 								<ul class="navbar-nav ml-auto main-maga-menu">
 									<li class="nav-item"><a href="./index.php" class="nav-link  active main-menu-item">Home</a></li>
-									<li class="nav-item dropdown menu-large"><a data-target="./about-us.php" href="./about-us.php" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link main-menu-item">About us<b class="caret"></b></a>
+									<li class="nav-item dropdown menu-large"><a data-target="./pages/about/about-us.php" href="./pages/about/about-us.php" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link main-menu-item">About us<b class="caret"></b></a>
 										<ul class="dropdown-menu megamenu">
 										  <li>
 											<div class="row">

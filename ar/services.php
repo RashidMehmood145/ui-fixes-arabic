@@ -3,32 +3,40 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="services-hero-section">
-				<div class="services-hero-gray-box"></div>
-				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
-					<h2 class="services-hero-heading">SERVICES</h2>
-					<h3 class="services-hero-sub-heading">Services</h3>
-					<div class="services-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
-				</div>
-				
-				<div class="services-hero-image">
-					<img src="./assets/images/services-page-bg-banner.svg">
-					<div class="bar-box-bottom-right"></div>
-				</div>
-				<div class="services-hero-gray-box-list-items">
-					<div class="services-list-items">
-						<h5 class="service-name">Brokerage</h5>
-						<h5 class="service-name">Asset management</h5>
-						<h5 class="service-name">Investment Banking<h5>
-						<h5 class="service-name">Real Estate<h5>
+				<div class="container" style="position: relative;">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-7">
+							<div class="services-hero-gray-box"></div>
+							<div class="services-hero-line-box"></div>
+							<div class="services-hero-content">
+								<h2 class="services-hero-heading">SERVICES</h2>
+								<h3 class="services-hero-sub-heading">Services</h3>
+								<div class="services-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
+							</div>
+							
+							<div class="services-hero-image">
+								<img src="./assets/images/services-page-bg-banner.svg">
+								<div class="bar-box-bottom-right"></div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-5">
+							<div class="services-hero-gray-box-list-items">
+								<div class="services-list-items">
+									<h5 class="service-name">Brokerage</h5>
+									<h5 class="service-name">Asset management</h5>
+									<h5 class="service-name">Investment Banking<h5>
+									<h5 class="service-name">Real Estate<h5>
+								</div>
+								
+							</div>
+						</div>
 					</div>
-					
 				</div>
 			</section>
 			<section class="after-services-hero-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 text-center">
+						<div class="col-md-4 text-center d-en">
 							<div class="inner-col">
 								<h3 class="after-services-heading">Our services<h3>		
 							</div>
@@ -39,6 +47,12 @@ include('header.php');
 								<div class="service-main-image">
 									<img src="./assets/images/services-line.svg">
 								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4 text-center d-ar">
+							<div class="inner-col">
+								<h3 class="after-services-heading">Our services<h3>		
 							</div>
 							
 						</div>
