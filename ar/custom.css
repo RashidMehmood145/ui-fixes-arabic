@@ -1,0 +1,342 @@
+.d-ar {
+  display: none;
+}
+
+.ar .d-ar {
+  display: block;
+  justify-self: flex-end;
+}
+.ar .d-en {
+  display: none;
+}
+.ar .businessmen-main-image {
+  left: -18px;
+  right: auto;
+}
+.ar .d-ar .inner-col {
+  padding-left: 1rem;
+}
+
+.ar .after-about-us-title,
+.ar .after-services-title {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.ar .about-us-short-details,
+.ar .about-us-min-short-details,
+.ar .service-short-details {
+  text-align: end;
+}
+.ar .about-us-list-items,
+.ar .about-us-team-list-items,
+.ar .services-list-items {
+  left: auto;
+  right: 100px;
+  text-align: right;
+}
+.ar .service-name {
+  justify-content: flex-end;
+}
+.ar .vertical-tabs.careers-tabs ul.nav.nav-tabs,
+.ar .vertical-tabs .nav.nav-tabs {
+  float: right;
+  text-align: right;
+}
+.ar .shariah-board-member-full-info-detail,
+.ar .our-company-first-contant-wrapper,
+.ar .our-company-first-contant-wrapper-3,
+.ar .brokerage-content-wrapper {
+  text-align: end;
+}
+.ar span.line-span {
+  right: auto;
+  left: 0;
+}
+.ar .our-company-first-contant-wrapper-3 p {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.ar .goals-valus span.yellow-text-line::after {
+  z-index: -1;
+}
+/* -------------------------- HEADER & FOOTER --------------------------  */
+a.learn-more-cta {
+  min-width: 175px;
+}
+body,
+html {
+  overflow-x: hidden !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.navbar .container {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.collapse.navbar-collapse.my-main-menu,
+.navbar-expand-lg .navbar-nav {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+.main-footer .row {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.main-footer .widget-title {
+  justify-content: flex-end;
+}
+.main-footer .Address,
+.main-footer .mail,
+.main-footer .phone {
+  flex-direction: row-reverse;
+}
+.main-footer .Address span.icon,
+.main-footer .mail span.icon,
+.main-footer .phone span.icon {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.copy-right-text {
+  text-align: center;
+}
+.top-nav-link-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-menu-bar {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+  }
+  .top-nav-link-wrapper {
+    display: none;
+  }
+  .collapse.navbar-collapse.my-main-menu {
+    display: none !important;
+    float: right;
+    text-align: left;
+  }
+  .collapse.navbar-collapse.my-main-menu.show,
+  .only-mobile {
+    display: block !important;
+  }
+  li.nav-item a {
+    margin: 3px 0px 0px 0px;
+    padding: 5px 5px 5px 5px !important;
+    background-color: #ffffff;
+    border-bottom: 1px solid #474c55;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  a.mobile-language-link {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  a.mobile-language-link {
+    display: block;
+  }
+}
+
+/* About US - MAIN */
+.langGridSecond {
+  order: 1;
+}
+.langGridFirst {
+  order: 2;
+}
+.about-us-hero-section,
+.services-hero-section {
+  position: relative;
+  width: 100%;
+}
+.about-us-hero-gray-box-list-items,
+.services-hero-gray-box-list-items {
+  margin-left: auto;
+  margin-right: 0;
+  left: 0;
+  bottom: 0;
+  top: 50%;
+}
+.about-us-hero-image,
+.services-hero-image {
+  left: auto;
+  right: 0;
+}
+.about-us-hero-short-details,
+.services-hero-short-details {
+  width: auto;
+  max-width: 400px;
+}
+.about-us-board-members-wrapper {
+  width: 100%;
+}
+.about-us-short-details {
+  width: 100%;
+  padding-left: 100px;
+  margin-left: 0 !important;
+}
+.befor-footer-section {
+  background-size: cover;
+}
+
+.col-md-9.careers-category-col {
+  flex: 0 0 66.66%;
+  max-width: 66.66%;
+}
+.shariah-board-member-full-info-detail p {
+  width: 100%;
+}
+
+.about-us-hero-sub-heading,
+.services-hero-sub-heading {
+  width: 100%;
+}
+.about-us-hero-sub-heading,
+.services-hero-sub-heading {
+  height: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-us-hero-section,
+  .services-hero-section {
+    height: 100%;
+  }
+  .about-us-hero-gray-box,
+  .services-hero-gray-box {
+    width: 100%;
+    left: -50px;
+  }
+  .businessmen-main-image {
+    display: none;
+  }
+  .about-us-hero-gray-box,
+  .services-hero-gray-box {
+    position: relative;
+  }
+  .about-us-hero-line-box,
+  .services-hero-line-box {
+    width: 100%;
+    left: 0;
+  }
+  .about-us-hero-content,
+  .services-hero-content {
+    width: 80%;
+    left: 20px;
+  }
+  .about-us-hero-image,
+  .services-hero-image {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    margin-left: auto;
+    right: 0;
+  }
+  .about-us-list-items,
+  .services-hlist-items {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .about-us-hero-gray-box-list-items,
+  .services-hero-gray-box-list-items {
+    width: 100%;
+    height: 250px;
+  }
+  .about-us-management-wrapper {
+    padding-left: 60px;
+  }
+
+  .our-company-content {
+    margin-top: 50px;
+  }
+  .about-us-short-details,
+  .left-padding-invest-banking {
+    padding-left: 0;
+  }
+  .about-us-min-short-details.re-padding-left {
+    margin-left: 0;
+  }
+  .about-us-management-wrapper .bar-box-top-right {
+    left: 30px;
+  }
+  .col-md-9.careers-category-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .our-company-first-contant-wrapper {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 100%;
+  }
+  .our-company-first-contant-wrapper-3 {
+    padding-left: 0;
+  }
+  .our-company-first-contant-wrapper-3 p {
+    width: 100%;
+  }
+  .member-full-info-detail p {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us-hero-section,
+  .services-hero-section {
+    height: auto;
+  }
+  .about-us-hero-gray-box,
+  .services-hero-gray-box {
+    position: relative;
+  }
+  .about-us-hero-gray-box-list-items,
+  .services-hero-gray-box-list-items {
+    width: 100%;
+    height: 300px;
+  }
+  .businessmen-main-image {
+    display: none;
+  }
+  .our-company-content {
+    margin-top: 2rem;
+  }
+
+  .about-us-short-details,
+  .services-hero-short-details {
+    padding-left: 40px;
+  }
+  .left-padding-invest-banking {
+    padding-left: 0;
+  }
+  .about-us-min-short-details.re-padding-left {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 40px;
+  }
+
+  .our-company-first-contant-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+  .our-company-first-contant-wrapper-3 {
+    padding-left: 1rem;
+  }
+  .our-company-first-contant-wrapper-3 p {
+    width: 100%;
+  }
+}
+
+/* annual-reports */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
