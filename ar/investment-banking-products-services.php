@@ -8,7 +8,7 @@ include('header.php');
 			<div class="col-sm-12 col-md-12 col-lg-7">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
+				<div class="services-hero-content" style="direction:rtl">
 					<h2 class="services-hero-heading">SERVICES</h2>
 					<h3 class="services-hero-sub-heading">Investment Banking</h3>
 					<div class="services-hero-short-details">Expand your business with our expertise</div>

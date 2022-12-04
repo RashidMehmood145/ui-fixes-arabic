@@ -5,7 +5,7 @@ include('header.php');
 		<section class="services-hero-section">
 			<div class="container" style="position: relative;">
 			<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-7">
+			<div class="col-sm-12 col-md-12 col-lg-7" style="direction:rtl">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
 				<div class="services-hero-content">
@@ -40,10 +40,10 @@ include('header.php');
 							<!--------------------------->
 							<ul class="nav nav-tabs" role="tablist">
 								<li class="nav-item">
-								  <a class="nav-link ib-overview-yellow-line active" data-target="./investment-banking-overview.html" href="./investment-banking-overview.html" >Overview</a>
+								  <a class="nav-link ib-overview-yellow-line active" data-target="./investment-banking-overview.php" href="./investment-banking-overview.php" >Overview</a>
 								</li>
 								<li class="nav-item">
-								    <a class="nav-link ib-products-services-yellow-line" data-target="./investment-banking-products-services.html"  href="./investment-banking-products-services.html" >Products & Services</a>
+								    <a class="nav-link ib-products-services-yellow-line" data-target="./investment-banking-products-services.php"  href="./investment-banking-products-services.php" >Products & Services</a>
 								</li>							
 							</ul>
 						</div>

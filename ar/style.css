@@ -1469,7 +1469,7 @@ button.btn.btn-primary.KYC-Update-btn {
     position: absolute;
     width: 395px;
     height: 364px;
-    left: 30%;
+    left: 27%;
     top: 245px;
     border: 9px solid #FFFFFF;
 	z-index: 1;
@@ -4689,7 +4689,7 @@ h5.about-us-team-name a.active.investment-banking-line::after {
     display: inline-block;
     content: "";
     position: absolute;
-    left: 60px;
+    left: 65%;
     z-index: -1;
     right: auto;
     top: 13px;
@@ -4775,7 +4775,7 @@ h5.about-us-team-name a.active.investment-banking-line::after {
     display: inline-block;
     content: "";
     position: absolute;
-    left: 0px;
+    left: 70%;
     z-index: -1;
     right: auto;
     top: 73px;
