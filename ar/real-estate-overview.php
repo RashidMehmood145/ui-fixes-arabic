@@ -3,9 +3,12 @@ include('header.php');
 ?> 
 		<main role="main">		
 			<section class="services-hero-section">
+			<div class="container" style="position: relative;" >
+			<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-7" >
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
+				<div class="services-hero-content" style="direction:rtl;">
 					<h2 class="services-hero-heading">SERVICES</h2>
 					<h3 class="services-hero-sub-heading">Real Estate</h3>
 					<div class="services-hero-short-details">Diversify your portfolio with hand-picked real estate opportunities</div>
@@ -15,6 +18,8 @@ include('header.php');
 					<img src="./assets/images/arabic-business-businessmen-working-together.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-5">	
 				<div class="services-hero-gray-box-list-items">
 					<div class="services-list-items">
 						<h5 class="about-us-team-name"><a href="./brokerage.php" ><span class="about-us-team-value">Brokerage</span></a></h5>
@@ -24,6 +29,9 @@ include('header.php');
 					</div>
 					
 				</div>
+</div>
+</div>
+</div>
 			</section>
 			<section class="after-services-hero-section-real-estate">
 				<div class="container">
@@ -43,8 +51,8 @@ include('header.php');
 			</section>
 			<section class="after-services-hero-section">
 				<!--<div class="gray-box-ib"></div>-->
-				<div class="container">
-					<div class="row vertical-tabs brokerage-tabs">
+				<div class="container" style="direction:rtl;">
+					<div class="row vertical-tabs brokerage-tabs" >
 		
 						<div class="col-md-3">
 							<!--------------------------->
@@ -80,7 +88,7 @@ include('header.php');
 			</section>
 			<section class="strategy-investment-objectives">
 				<div class="gray-box-sio"></div>
-				<div class="container">
+				<div class="container" style="direction:rtl;">
 					<div class="row">	
 						<div class="col-md-7">
 							<div class="sio-wrapper">
@@ -90,14 +98,14 @@ include('header.php');
 							</div>
 						</div>
 						<div class="col-md-5">
-							<div class="sio-feature-wrapper">
-								<div class="advisory-services-wrapper">
+							<div class="sio-feature-wrapper" style="direction:rtl;">
+								<div class="advisory-services-wrapper" >
 									<div class="advisory-services-icon"><img src="./assets/images/professional-team-icon.svg"></div>
-									<div class="advisory-services-content">Select and work with developers and co-managers who have proven their ability to implement and create their brand.</div>
+									<div class="advisory-services-content">اختر واعمل مع المطورين والمديرين المشاركين الذين أثبتوا قدرتهم على تنفيذ وإنشاء علامتهم التجارية</div>
 								</div>
 								<div class="advisory-services-wrapper">
 									<div class="advisory-services-icon"><img src="./assets/images/advisory-services-icon.svg"></div>
-									<div class="advisory-services-content">Benefit from the team's experience in structuring the investment and a comprehensive understanding of its systems.</div>
+									<div class="advisory-services-content">الاستفادة من خبرة الفريق في هيكلة الاستثمار والفهم الشامل لأنظمته</div>
 								</div>
 								<div class="advisory-services-wrapper">
 									<div class="advisory-services-icon"><img src="./assets/images/establishment-icon.svg"></div>

@@ -8,7 +8,7 @@ include('header.php');
 						<div class="col-sm-12 col-md-12 col-lg-7">
 							<div class="services-hero-gray-box"></div>
 							<div class="services-hero-line-box"></div>
-							<div class="services-hero-content">
+							<div class="services-hero-content" style="direction:rtl;">
 								<h2 class="services-hero-heading">SERVICES</h2>
 								<h3 class="services-hero-sub-heading">Services</h3>
 								<div class="services-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
@@ -21,8 +21,8 @@ include('header.php');
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-5">
 							<div class="services-hero-gray-box-list-items">
-								<div class="services-list-items">
-									<h5 class="service-name">Brokerage</h5>
+								<div class="services-list-items" >
+									<h5 class="service-name">السوق المالية </h5>
 									<h5 class="service-name">Asset management</h5>
 									<h5 class="service-name">Investment Banking<h5>
 									<h5 class="service-name">Real Estate<h5>
@@ -38,7 +38,7 @@ include('header.php');
 					<div class="row">
 						<div class="col-md-4 text-center d-en">
 							<div class="inner-col">
-								<h3 class="after-services-heading">Our services<h3>		
+								<h3 class="after-services-heading">لسوق المالية<h3>		
 							</div>
 							
 						</div>
@@ -119,7 +119,7 @@ include('header.php');
 							<div class="inner-col">
 								<h3 class="after-services-title"><span class="line-span"><img src="./assets/images/Line.svg"></span>Real <span class="yellow-text-line">Estate</span><h3>	
 								<div class="service-short-details re-padding-left">Diversify your portfolio with hand-picked real estate opportunities</div>
-								<a class="learn-more-cta re-padding-left">Learn More</a>							
+								<a class="learn-more-cta re-padding-left" href="./real-estate-overview.php">Learn More</a>							
 							</div>							
 						</div>
 						<div class="col-md-6 text-right">
