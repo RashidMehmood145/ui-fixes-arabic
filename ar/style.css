@@ -2318,9 +2318,9 @@ a.load-more-media-cta:hover {
 }
 .contact-us-hero-image {
     position: absolute;
-    width: 427px;
-    height: 552px;
-    left: 416px;
+    width: 427%;
+    height: 552%;
+    left: -150px;
     top: 157px;
 }
 
@@ -2424,6 +2424,7 @@ span.care-yellow-line::after {
 .customer-care {
     width: 606px;
     height: 510px;
+    margin-bottom: 20%;
 }
 .contact-form {
     width: 607px;
@@ -3809,9 +3810,9 @@ h2.privacy-hero-heading {
 }
 .about-us-team-hero-image {
     position: absolute;
-    width: 427px;
-    height: 552px;
-    left: 416px;
+    width: 427%;
+    height: 552%;
+    left: -150px;
     top: 157px;
 }
 .about-us-team-hero-gray-box-list-items {

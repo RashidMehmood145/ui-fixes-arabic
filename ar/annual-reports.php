@@ -3,20 +3,27 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="about-us-team-hero-section">
-				<div class="about-us-team-hero-gray-box"></div>
-				<div class="about-us-team-hero-line-box"></div>
-				<div class="about-us-team-hero-content">
-					<h2 class="about-us-team-hero-heading">About us</h2>
-					<h3 class="about-us-team-hero-sub-heading">Annual Reports</h3>
-					<div class="about-us-team-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
-				</div>
-				
-				<div class="about-us-team-hero-image">
-					<img src="./assets/images/annual-reports-banner.svg">
+				<div class="container" style="position: relative;" >
+					<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-5" style="direction:rtl;">	
+						<div class="about-us-team-hero-gray-box"></div>
+						<div class="about-us-team-hero-line-box"></div>
+						<div class="about-us-team-hero-content" style="direction:rtl;">
+							<h2 class="about-us-team-hero-heading">About us</h2>
+							<h3 class="about-us-team-hero-sub-heading">Annual Reports</h3>
+							<div class="about-us-team-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-7">	
+						<div class="about-us-team-hero-image">
+							<img  src="./assets/images/annual-reports-banner.svg">
+						</div>
+					</div>
+					</div>
 				</div>
 			</section>
 			<section class="after-careers-hero-section">
-				<div class="container">
+				<div class="container" style="direction:rtl;">
 					<div class="row justify-content-center">
 						<div  class="col-md-10">
 							<div class="annual-reports-content-wrapper">

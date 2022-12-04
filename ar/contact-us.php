@@ -1,8 +1,11 @@
 <?php
 include('header.php');
 ?>
-		<main role="main">		
+<main role="main" > 	
 			<section class="contact-us-hero-section">
+			<div class="container" style="position: relative;" >
+			<div class="row">	
+			<div class="col-sm-12 col-md-12 col-lg-5" style="direction:rtl;">
 				<div class="contact-us-hero-gray-box"></div>
 				<div class="contact-us-hero-line-box"></div>
 				<div class="contact-us-hero-content">
@@ -10,16 +13,21 @@ include('header.php');
 					<h3 class="contact-us-hero-sub-heading">Contact Us</h3>
 					<div class="contact-us-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
 				</div>
-				
-				<div class="contact-us-hero-image">
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-7">	
+				<div class="contact-us-hero-image" >
 					<img src="./assets/images/contact-us-hero-banner.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+			</div>
+				</div>
+		</div>
 			</section>
+
 			
 			<!---------Content here------------>
-			<section class="after-contact-us-hero-section">
-				<div class="container">
+			<section class="after-contact-us-hero-section" >
+				<div class="container" style="direction:rtl; margin-top:5%">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="contact-wrapper">
@@ -174,7 +182,7 @@ include('header.php');
 							</div>	
 						</div>
 						<div  class="col-md-6">
-							<div class="customer-care">
+							<div class="customer-care" >
 								<img src="./assets/images/customer-care-map.svg">
 							</div>
 						</div>
@@ -183,7 +191,7 @@ include('header.php');
 				</div>
 			</section>
 			
-		</main>
+</main>
 			<?php
 include('footer.php');
 ?>

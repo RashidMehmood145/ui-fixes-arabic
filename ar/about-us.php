@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 ?>
-		<main role="main">		
+		<main role="main" style="direction:rtl;">		
 			<section class="about-us-hero-section">
 				<div class="container">
 					<div class="row">
