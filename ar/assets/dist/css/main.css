@@ -102,9 +102,9 @@ body {
 .after-hero-arabic .section-cta-btn {
   padding-right: 115px;
 }
-.invest-arabic .yellow-btn-box {
+/* .invest-arabic .yellow-btn-box {
   right: 95px;
-}
+} */
 .invest-arabic a.main-slider-cta img {
   padding-top: 0px;
   transform: rotate(180deg);
@@ -390,10 +390,10 @@ body {
     top: 385px;
     right: 15px;
   }
-  .invest-arabic .yellow-btn-box {
+  /* .invest-arabic .yellow-btn-box {
     right: 0px;
     bottom: 72px;
-  }
+  } */
   .award-arabic .carousel-item-container {
     margin-right: 0px;
   }
