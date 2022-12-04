@@ -2315,7 +2315,7 @@ a.load-more-media-cta:hover {
 .contact-us-hero-section {
     position: relative;
     height: 614px;
-    top: -130px;
+    top: -130px;    
 }
 .contact-us-hero-gray-box {
     position: absolute;
@@ -2324,12 +2324,13 @@ a.load-more-media-cta:hover {
     left: 0px;
     top: 29px;
     background: #F6F8FA;
+    transform: translateX(50rem);
 }
 .contact-us-hero-image {
     position: absolute;
     width: 427%;
     height: 552%;
-    left: -150px;
+    /* left: -150px; */
     top: 157px;
 }
 
@@ -2342,12 +2343,13 @@ a.load-more-media-cta:hover {
     top: 245px;
     border: 9px solid #FFFFFF;
 	z-index: 1;
+    transform: translateX(48rem);
 }
 .contact-us-hero-content {
     position: absolute;
     top: 307px;
-    left: 206px;
-	    z-index: 1;
+    left: 150px;
+	z-index: 1;
 }
 h2.contact-us-hero-heading {
     font-family: 'Mulish-Bold';
@@ -2463,7 +2465,7 @@ h3.contact-form-heading {
     display: inline-block;
     content: "";
     position: absolute;
-    left: -33px;
+    left: 90%;
     z-index: 1;
     top: 71px;
     right: auto;
@@ -2476,7 +2478,7 @@ h3.contact-form-heading {
     display: inline-block;
     content: "";
     position: absolute;
-    left: 99px;
+    left: 60%;
     z-index: 1;
     right: auto;
     top: 78px;

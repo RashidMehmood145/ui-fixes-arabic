@@ -135,7 +135,7 @@ include('header.php');
 				</div>
 			</section>
 			<section class="befor-footer-section">
-				<div class="container">
+				<div class="container" style="direction:rtl; margin-left:-9%" >
 					<div class="row">
 						<div class="col-md-4">
 							<div class="inner-col">
