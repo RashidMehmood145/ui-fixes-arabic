@@ -2,10 +2,13 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="services-hero-section">
+		<section class="services-hero-section">
+			<div class="container" style="position: relative;">
+			<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-7">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
+				<div class="services-hero-content" style="direction:rtl;">
 					<h2 class="services-hero-heading">SERVICES</h2>
 					<h3 class="services-hero-sub-heading">Asset Management</h3>
 					<div class="services-hero-short-details">Professional management to achieve your financial goals</div>
@@ -15,6 +18,9 @@ include('header.php');
 					<img src="./assets/images/arabian-businessman-drinking-coffee-near-laptop.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+				
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-5">
 				<div class="services-hero-gray-box-list-items">
 					<div class="services-list-items">
 						<h5 class="about-us-team-name"><a href="./brokerage.php" ><span class="about-us-team-value">Brokerage</span></a></h5>
@@ -23,11 +29,14 @@ include('header.php');
 						<h5 class="about-us-team-name"><a href="./real-estate-overview.php" class=""><span class="about-us-team-value">Real Estate</span></a></h5>
 					</div>
 					
+						</div>
+					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 			<section class="after-services-hero-section">
 				<div class="container">
-					<div class="row vertical-tabs brokerage-tabs">
+					<div class="row vertical-tabs brokerage-tabs" style="direction:rtl;">
 						<div class="col-md-3">
 							<!--------------------------->
 							<ul class="nav nav-tabs" role="tablist">
@@ -127,7 +136,7 @@ include('header.php');
 							<img src="./assets/images/investment-philosophy-image.png">
 						</div>
 						<div class="col-md-6">
-							<div class="investment-philosophy-content-wrapper">
+							<div class="investment-philosophy-content-wrapper" style="direction:rtl;">
 								<h3 class="parallel-brokerage-type-title"><span class="investment-philosophy-text-line">Investment</span> Philosophy <span class="line-span"><img src="./assets/images/Line-11.svg"></span></h3>
 								<p>The investment philosophy of Alistithmar Capital is based on three main pillars: long-term investment, investment based on fundamental analysis and value, and effective risk management that in turn contributes to maximizing returns. We believe that our understanding of the main market trends and their influence on these trends is an essential element in creating value for the long-term investor. We rely on basic research to identify investment opportunities that achieve investment goals. We also adopt effective risk management, such as constant monitoring to ensure the achievement of investment objectives, considering compliance with laws and regulations.</p>
 								<a href="#" class="learn-more-cta">Learn More</a>
@@ -141,8 +150,8 @@ include('header.php');
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="investment-strategy-content-wrapper">
-								<h3 class="investment-strategy-type-title"><span class="line-investment-strategy-span"><img src="./assets/images/Line-11.svg"></span> <span class="investment-strategy-text-line">Investment</span> Strategy</h3>
+							<div class="investment-strategy-content-wrapper" style="direction:rtl;">
+								<h3 class="investment-strategy-type-title" ><span class="line-investment-strategy-span"><img src="./assets/images/Line-11.svg"></span> <span class="investment-strategy-text-line">Investment</span> Strategy</h3>
 								<ul class="investment-strategy-list-item">
 									<li><span class="ip-gray-box-span"></span> We follow a very professional investment process which is based on between the active management and fundamental research.</li>
 									<li><span class="ip-gray-box-span"></span> Our focus is critical on risk management and down market strategies, in order to protect client positions.</li>
@@ -174,7 +183,7 @@ include('header.php');
 									<img class="fra-content-wrapper-banner" src="./assets/images/multiracial-group-business-people-having-meeting-1798945723.svg">
 								</div>
 								<!----------Accordent--------->
-								<div class="fra-accordion-content-wrapper">
+								<div class="fra-accordion-content-wrapper" style="direction:rtl;">
 									<h3 class="fra-type-title"><span class="line-fra-span"><img src="./assets/images/Line-11.svg"></span> <span class="fra-text-line">Financial</span> Reports <br>& Announcements</h3>
 									<div class="accordion" id="accordion_threat_phishing">
 											  <div class="card annual-reports-card">

@@ -2,10 +2,13 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="services-hero-section">
+		<section class="services-hero-section">
+			<div class="container" style="position: relative;">
+			<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-7">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
+				<div class="services-hero-content" style="direction:rtl;">
 					<h2 class="services-hero-heading">SERVICES</h2>
 					<h3 class="services-hero-sub-heading">Asset Management</h3>
 					<div class="services-hero-short-details">Professional management to achieve your financial goals</div>
@@ -15,6 +18,9 @@ include('header.php');
 					<img src="./assets/images/arabian-businessman-drinking-coffee-near-laptop.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+				
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-5">
 				<div class="services-hero-gray-box-list-items">
 					<div class="services-list-items">
 						<h5 class="about-us-team-name"><a href="./brokerage.php" ><span class="about-us-team-value">Brokerage</span></a></h5>
@@ -23,9 +29,12 @@ include('header.php');
 						<h5 class="about-us-team-name"><a href="./real-estate-overview.php" class=""><span class="about-us-team-value">Real Estate</span></a></h5>
 					</div>
 					
+						</div>
+					</div>
 				</div>
-			</section>
-			<section class="after-services-hero-section">
+			</div>
+		</section>
+			<section class="after-services-hero-section" style="direction:rtl;">
 				<div class="container">
 					<div class="row vertical-tabs brokerage-tabs">
 						<div class="col-md-3">
@@ -47,7 +56,7 @@ include('header.php');
 								<div class="tab-pane active" id="Local_Brokerage" role="tabpanel">
 									<div class="row">
 						<div class="col-md-12">
-							<div class="fra-content-wrapper">
+							<div class="fra-content-wrapper" style="direction:rtl;">
 								<!----------Accordent--------->
 								<div class="fra-accordion-content-wrapper">
 									<div class="accordion" id="accordion_threat_phishing" style="padding-top: 100px;">

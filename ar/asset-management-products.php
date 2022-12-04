@@ -2,10 +2,13 @@
 include('header.php');
 ?>
 		<main role="main">		
-			<section class="services-hero-section">
+		<section class="services-hero-section">
+			<div class="container" style="position: relative;">
+			<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-7">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
-				<div class="services-hero-content">
+				<div class="services-hero-content" style="direction:rtl;">
 					<h2 class="services-hero-heading">SERVICES</h2>
 					<h3 class="services-hero-sub-heading">Asset Management</h3>
 					<div class="services-hero-short-details">Professional management to achieve your financial goals</div>
@@ -15,6 +18,9 @@ include('header.php');
 					<img src="./assets/images/arabian-businessman-drinking-coffee-near-laptop.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+				
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-5">
 				<div class="services-hero-gray-box-list-items">
 					<div class="services-list-items">
 						<h5 class="about-us-team-name"><a href="./brokerage.php" ><span class="about-us-team-value">Brokerage</span></a></h5>
@@ -23,9 +29,12 @@ include('header.php');
 						<h5 class="about-us-team-name"><a href="./real-estate-overview.php" class=""><span class="about-us-team-value">Real Estate</span></a></h5>
 					</div>
 					
+						</div>
+					</div>
 				</div>
-			</section>
-			<section class="after-services-hero-section">
+			</div>
+		</section>
+			<section class="after-services-hero-section" style="direction:rtl;">
 				<div class="container">
 					<div class="row vertical-tabs brokerage-tabs">
 						<div class="col-md-3">
@@ -64,7 +73,7 @@ include('header.php');
 			<section class="investment-philosophy-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" style="direction:rtl;">
 							<h3 class="mf-type-title"><span class="line-mf-span"><img src="./assets/images/Line-11.svg"></span>Mutual <span class="mf-text-line">Funds</span>  </h3>
 							<div class="mutual-funds-table">
 													<div class="speculation-investing-saving">
@@ -131,7 +140,7 @@ include('header.php');
 									<img class="fra-content-wrapper-banner" src="./assets/images/services-asset-mgmt-products-banner.svg">
 								</div>
 								<!----------Accordent--------->
-								<div class="fra-accordion-content-wrapper">
+								<div class="fra-accordion-content-wrapper" style="direction:rtl;">
 									<h3 class="fra-type-title"><span class="line-fra-span"><img src="./assets/images/Line-11.svg"></span> <span class="fra-text-line">Financial</span> Reports <br>& Announcements</h3>
 									<div class="accordion" id="accordion_threat_phishing">
 											  <div class="card annual-reports-card">

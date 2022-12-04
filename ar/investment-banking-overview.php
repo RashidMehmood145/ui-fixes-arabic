@@ -2,7 +2,10 @@
 include('header.php');
 ?> 
 		<main role="main">		
-			<section class="services-hero-section">
+		<section class="services-hero-section">
+			<div class="container" style="position: relative;">
+			<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-7">
 				<div class="services-hero-gray-box"></div>
 				<div class="services-hero-line-box"></div>
 				<div class="services-hero-content">
@@ -15,6 +18,8 @@ include('header.php');
 					<img src="./assets/images/handsome-middle-eastern-arab-businessman-holding.svg">
 					<div class="bar-box-bottom-right"></div>
 				</div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-5">
 				<div class="services-hero-gray-box-list-items">
 					<div class="services-list-items">
 						<h5 class="about-us-team-name"><a href="./brokerage.php" ><span class="about-us-team-value">Brokerage</span></a></h5>
@@ -24,8 +29,11 @@ include('header.php');
 					</div>
 					
 				</div>
+</div>
+</div>
+</div>
 			</section>
-			<section class="after-services-hero-section">
+			<section class="after-services-hero-section" style="direction:rtl;">
 				<div class="container">
 					<div class="row vertical-tabs brokerage-tabs">
 						<div class="col-md-3">
