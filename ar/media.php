@@ -26,7 +26,7 @@ include('header.php');
 						<div  class="col-md-9 news-category-col">
 							<div class="tab-content">
 								<div class="tab-pane active" id="category1" role="tabpanel">
-									<div class="row">
+									<div class="row flex-row-reverse">
 										<div class="col-md-4 mb-4">
 											<div class="news-category-box-wrapper">
 												<div class="news-category-box-image">
@@ -166,7 +166,7 @@ include('header.php');
 									<!--------------Row End-------------->
 								</div>
 								<div class="tab-pane" id="category2" role="tabpanel">
-									<div class="row">
+									<div class="row flex-row-reverse">
 										<div class="col-md-4 mb-4">
 											<div class="news-category-box-wrapper">
 												<div class="news-category-box-image">
@@ -306,7 +306,7 @@ include('header.php');
 									<!--------------Row End-------------->
 								</div>
 								<div class="tab-pane" id="category3" role="tabpanel">
-									<div class="row">
+									<div class="row flex-row-reverse">
 										<div class="col-md-4 mb-4">
 											<div class="news-category-box-wrapper">
 												<div class="news-category-box-image">
@@ -446,7 +446,7 @@ include('header.php');
 									<!--------------Row End-------------->
 								</div>
 								<div class="tab-pane" id="category4" role="tabpanel">
-									<div class="row">
+									<div class="row flex-row-reverse">
 										<div class="col-md-4 mb-4">
 											<div class="news-category-box-wrapper">
 												<div class="news-category-box-image">
@@ -586,7 +586,7 @@ include('header.php');
 									<!--------------Row End-------------->
 								</div>
 								<div class="tab-pane" id="category5" role="tabpanel">
-									<div class="row">
+									<div class="row flex-row-reverse">
 										<div class="col-md-4 mb-4">
 											<div class="news-category-box-wrapper">
 												<div class="news-category-box-image">
