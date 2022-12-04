@@ -110,7 +110,7 @@ include('header.php');
 			</section>
 			<section class="after-hero-section after-hero-arabic">
 				<div class="container">
-					<div class="row our-fund-row">        
+					<div class="row our-fund-row flex-row-reverse">        
 						<div class="col-md-7">
 							<div class="inner-col rtl">
 								<h3 class="section-heading rtl">ABOUT US</h3>
@@ -145,7 +145,7 @@ include('header.php');
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-11 gray-box-invest">
-							<div class="row">
+							<div class="row flex-row-reverse">
 								<div class="col-md-6 order-1 order-md-0">
 									<div class="inner-col">
 										<div class="col-image-container">
@@ -172,10 +172,10 @@ include('header.php');
 									</div>
 								</div>
 							</div>
-							<div class="row feature-row-gap">
+							<div class="row feature-row-gap flex-row-reverse">
 								<div class="col-md-5">
 									<div class="inner-col">
-										<div class="row">	
+										<div class="row flex-row-reverse">	
 											<div class="col-md-6">
 												<div class="feature-box rtl">
 													<div class="feature-icon rtl"><img src="./assets/images/point.svg" class="" alt=""></div>
@@ -332,10 +332,10 @@ include('header.php');
 												</div>
 											</div>
 										</div>
-										<!-----------slider End---------->
+										<----------slider End---------->
 									</div>
 								</div>
-								<div class="offset-md-1 col-md-5">
+								<div class="col-md-6">
 									<div class="inner-col awards-achievements-content-top-gap rtl">
 										<h3 class="section-heading rtl">ABOUT US</h3>
 										<h2 class="section-main-heading rtl"><span class="awards-heading-bold"> Awards </span> <br>& Achievements</h2>
@@ -354,8 +354,8 @@ include('header.php');
 			<section class="news-media-section news-arabic">
 				<div class="container-fluid news-media-section-container">
 					<div class="row">
-						<div class="col-md-11  news-media-wrapper">
-							<div class="row">
+						<div class="col-md-12 news-media-wrapper">
+							<div class="row flex-row-reverse">
 								<div class="col-md-6 pl-0">
 									<div class="inner-col">
 										<div class="news-media-container">
