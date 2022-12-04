@@ -140,13 +140,14 @@ a.navbar-brand.home img {
     left: 32px;
     right: auto;
     top: 78px;
+    text-align: right;
 }
 .megamenu .row {
     margin-left: 0px;
     margin-right: 0px;
 }
 .sub-menu-outter-wrapper {
-    padding-left: 40px !important;
+    padding-right: 40px !important;
 }
 li.sub-menu-main>ul>li {
     list-style: none;
@@ -2084,7 +2085,7 @@ h2.media-hero-heading {
     height: 27px;
     right: 24px;
     text-align: right;
-    top: 24px;
+    top: 10px;
     background: rgba(246, 248, 250, 0.6);
     font-family: 'Mulish-Bold';
     font-style: normal;

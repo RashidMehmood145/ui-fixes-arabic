@@ -57,7 +57,7 @@ include('header.php');
 				<section class="recommended-articles">
 					<h2 class="media-hero-heading">ABOUT US</h2>
 					<h3 class="hero-sub-heading">Recommended <span>articles</span></h3>
-					<div class="media-recommended-blogs row">
+					<div class="media-recommended-blogs row flex-row-reverse">
 						<div class="col-md-4 mb-4">
 							<div class="news-category-box-wrapper">
 								<div class="news-category-box-image">
