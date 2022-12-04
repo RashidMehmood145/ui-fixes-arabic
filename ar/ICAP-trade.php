@@ -10,7 +10,7 @@ include('header.php');
 					<div class="row">
 						<div class="content-outer-line-container">
 							<div class="inner-col">
-								<div class="row">
+								<div class="row flex-row-reverse">
 									<div class="col-xl-3 mb-3 col-md-6">
 										<div class="icap-fund-type-wrapper">
 											<div class="icap-fund-type-header rtl">

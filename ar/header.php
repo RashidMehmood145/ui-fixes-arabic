@@ -77,7 +77,7 @@
 									<li class="nav-item dropdown menu-large"><a data-target="./pages/about/about-us.php" href="./pages/about/about-us.php" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link main-menu-item">About us<b class="caret"></b></a>
 										<ul class="dropdown-menu megamenu">
 										  <li>
-											<div class="row">
+											<div class="row flex-row-reverse">
 											  <div class="col-md-6 col-lg-3 sub-menu-outter-wrapper">
 												<h5><a href="./our-company.php">Our Company</a></h5>
 												<ul class="list-unstyled mb-3">
@@ -115,7 +115,7 @@
 									<li class="nav-item dropdown menu-large"><a data-target="./services.php"  href="./services.php" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link main-menu-item">Services<b class="caret"></b></a>
 										<ul class="dropdown-menu megamenu">
 										  <li>
-											<div class="row">
+											<div class="row flex-row-reverse">
 											  <div class="col-md-4 col-lg-3  pr-0 pl-0 sub-menu-outter-wrapper">
 												<h5><a href="./services.php#brokerage">Brokerage</a></h5>
 												<ul class="list-unstyled mb-3">
@@ -158,7 +158,7 @@
 									<li class="nav-item dropdown menu-large only-mobile"><a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link main-menu-item">Other<b class="caret"></b></a>
 										<ul class="dropdown-menu megamenu">
 										  <li>
-											<div class="row">
+											<div class="row flex-row-reverse">
 											  <div class="col-md-4 col-lg-3  pr-0 pl-0 sub-menu-outter-wrapper">
 												<ul class="list-unstyled mb-3">
 													<li class="nav-item"><a href="./new-client.php" class="nav-link">New Client</a></li>
