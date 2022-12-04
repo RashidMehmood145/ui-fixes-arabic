@@ -3,12 +3,12 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="about-us-hero-section">
-				<div class="container">
+				<div class="container" >
 					<div class="row">
 						<div class="col-sm-12 col-md-12 col-lg-7">
 							<div class="about-us-hero-gray-box"></div>
 							<div class="about-us-hero-line-box"></div>
-							<div class="about-us-hero-content">
+							<div class="about-us-hero-content" style="direction:rtl;">
 								<h2 class="about-us-hero-heading">About us</h2>
 								<h3 class="about-us-hero-sub-heading">Our Team</h3>
 								<div class="about-us-hero-short-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</div>
@@ -21,7 +21,7 @@ include('header.php');
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-5">
 							<div class="about-us-hero-gray-box-list-items">
-								<div class="about-us-team-list-items">
+								<div class="about-us-team-list-items" style="direction:rtl;">
 									<h5 class="about-us-team-name"><a href="./our-company.php" class=""><span class="about-us-team-value">Our Company</span></a></h5>
 									<h5 class="about-us-team-name"><a href="./our-team.php" class="active"><span class="about-us-team-value">Our Team</span></a></h5>
 									<h5 class="about-us-team-name"><a href="./awards-achievements.php" class=""><span class="about-us-team-value">Awards & Achievements</span></a><h5>
@@ -35,8 +35,8 @@ include('header.php');
 			<section class="about-us-team-after-hero-section" id="Board-of-Members">
 				<div class="container">
 					<div class="row vertical-tabs careers-tabs">
-						<div class="col-sm-12 col-md-12 col-lg-4 d-en">
-							<!--------------------------->
+						<!-- <div class="col-sm-12 col-md-12 col-lg-4 d-en">
+							
 							<ul class="nav nav-tabs" role="tablist">
 								<li class="nav-item">
 								  <a class="nav-link board-of-Members active" data-toggle="tab" href="#Board_of_Members" role="tab" aria-controls="Board of Members">Board of Members</a>
@@ -48,8 +48,8 @@ include('header.php');
 								  <a class="nav-link shariah-board" data-toggle="tab" href="#Shariah_Board" role="tab" aria-controls="Shariah Board"> Shariah Board </a>
 								</li>							
 							</ul>
-						</div>
-						<div  class="col-sm-12 col-md-12 col-lg-8 careers-category-col">
+						</div> -->
+						<div  class="col-sm-12 col-md-12 col-lg-8 careers-category-col" style="direction:rtl;">
 							<div class="tab-content">
 								<div class="tab-pane active" id="Board_of_Members" role="tabpanel">
 									<div class="row our-team-row first">	
