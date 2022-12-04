@@ -3,7 +3,7 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="hero-section arabic-home">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-indicators">
 						<div class="carousel-indicators-container rtl active" data-target="#myCarousel" data-slide-to="0" >
 							  <span class="carousel-indicators-number rtl">01</span>
