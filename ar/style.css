@@ -640,11 +640,10 @@ span.no-client-label {
 
 .invest-content-top-gap {
     padding-top: 80px;
-	margin-right: 41px;
+	margin-right: 70px;
 }
 .invest-content-top-gap p {
-    width: 383px;
-    height: 104px;
+    margin-bottom: 30px;
 }
 .how-to-invest-section {
     margin-bottom: 80px;
@@ -662,13 +661,10 @@ span.no-client-label {
     background: #F6F8FA;
     padding-right: 0px;
     padding-left: 0px;
-    flex: 0 0 94.5%;
-    max-width: 94.5%;
     max-height: 1248px;
     margin-left: auto;
 }
 .invest-main-content {
-    padding-left: 115px;
     position: relative;
     z-index: 2;
     margin-top: 26px;
@@ -770,6 +766,9 @@ ul.invest-list-item {
     max-width: 100%;
     overflow: hidden;
 }
+.awards-achievements-col11-5 .row{
+    justify-content: space-between;
+}
 .post-row {
     background: #F6F8FA;
     padding: 75px 321px;
@@ -801,15 +800,11 @@ span.awards-heading-bold::after {
 }
 .wards-achievements-content {
     margin: 20px auto 0;
-    margin-left: 0;
-    max-width: 573px;
-    
     position: relative;
     z-index: 1;
-    margin-top: 24px;
+    margin-right: 90px;
 }
 .wards-achievements-content p {
-    max-width: 319px;
     font-family: 'Mulish-Regular';
     font-style: normal;
     font-weight: 400;
@@ -837,7 +832,6 @@ span.awards-heading-bold::after {
 }
 .awards-achievements-content-top-gap {
     padding-top: 80px;
-    margin-left: 41px;
 }
 .post-slider-container {
     width: 1242px;
@@ -982,7 +976,7 @@ span.awards-heading-bold::after {
     padding: 0px;
 }
 .news-media-col-wrapper {
-    padding-left: 109px;
+    padding-right: 70px;
     padding-top: 40px;
 }
 ul.news-list-item {
@@ -1018,8 +1012,6 @@ ul.news-list-item {
     margin-top: 11px;
 }
 .news-media-main-content p {
-    width: 319px;
-    height: 130px;
     font-family: 'Mulish-Regular';
     font-style: normal;
     font-weight: 400;
@@ -1027,8 +1019,7 @@ ul.news-list-item {
     line-height: 160%;
     color: #474C55;   
 	position: relative;
-	margin-left: 107px;
-	    margin-bottom: 47px;
+    margin-bottom: 47px;
 }
 .news-media-main-content::after {
     display: inline-block;
@@ -5789,7 +5780,8 @@ span.mf-text-line::after {
 	}
 	.hero-section {
 		margin-top: 0px;
-		height: 900px;
+		/* height: 900px; */
+        height: auto;
 	}
 	.carousel-inner .carousel-item > div {
 		display: block;
@@ -5816,7 +5808,7 @@ span.mf-text-line::after {
 		top: 0;
 		left: 0;
 		width: 480px;
-		height: auto;
+		height: 100%;
 	}
 	.carousel-indicators {
 		display: block;
@@ -5824,7 +5816,8 @@ span.mf-text-line::after {
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0px;
-		top: 458px;
+		/* top: 458px; */
+		bottom: 0;
 	}
 	.carousel-indicators-content {
 		width: 100%;
@@ -5840,11 +5833,12 @@ span.mf-text-line::after {
 		height: 121px;
 	}
 	ol.carousel-indicators.left-carousel-indicators {
-		display: flex;
+		/* display: flex;
 		bottom: 264px;
 		top: auto;
 		left: 0;
-		right: auto;
+		right: auto; */
+        display: none;
 	}
 	.carousel-indicators-heading {
 		line-height: 16px;
@@ -5895,7 +5889,7 @@ span.mf-text-line::after {
 		padding: 20px 24px;
     }
 	.feature-box {
-		margin-bottom: 20px;
+		margin-top: 30px;
 	}
 	.col-md-invest-image {
 		-ms-flex: 0 0 100%;
@@ -5994,6 +5988,7 @@ span.mf-text-line::after {
 	}
 	.wards-achievements-content {
 		padding: 0px 0x;
+        margin-right: 0;
 	}
 	.inner-col.invest-content-top-gap .wards-achievements-content {
 		padding-left: 24px;
