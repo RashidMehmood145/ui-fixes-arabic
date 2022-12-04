@@ -3,7 +3,7 @@ include('header.php');
 ?>
 		<main role="main">		
 			<section class="hero-section arabic-home">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 					<div class="carousel-indicators">
 						<div class="carousel-indicators-container rtl active" data-target="#myCarousel" data-slide-to="0" >
 							  <span class="carousel-indicators-number rtl">01</span>
@@ -144,7 +144,7 @@ include('header.php');
 			<section class="how-to-invest-section invest-arabic">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-11 gray-box-invest">
+						<div class="col-md-12 gray-box-invest">
 							<div class="row flex-row-reverse">
 								<div class="col-md-6 order-1 order-md-0">
 									<div class="inner-col">
@@ -225,8 +225,17 @@ include('header.php');
 				<div class="container-fluid">
 					<div class="row">
 						<div class="awards-achievements-col11-5">
-							<div class="row">
-								
+							<div class="row flex-row-reverse">
+							<div class="col-md-6">
+									<div class="inner-col awards-achievements-content-top-gap rtl">
+										<h3 class="section-heading rtl">ABOUT US</h3>
+										<h2 class="section-main-heading rtl"><span class="awards-heading-bold"> Awards </span> <br>& Achievements</h2>
+										<div class="wards-achievements-content rtl">
+											<p class="rtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+											<div class="section-cta-btn rtl"><a class="btn cta-btn" href="#">Learn More</a></div>
+										</div>
+									</div>
+								</div>
 								<div class="col-md-6 pl-0 post-row">
 								<!--------------------->
 									<div class="post-slider-container">
@@ -333,16 +342,6 @@ include('header.php');
 											</div>
 										</div>
 										<----------slider End---------->
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="inner-col awards-achievements-content-top-gap rtl">
-										<h3 class="section-heading rtl">ABOUT US</h3>
-										<h2 class="section-main-heading rtl"><span class="awards-heading-bold"> Awards </span> <br>& Achievements</h2>
-										<div class="wards-achievements-content rtl">
-											<p class="rtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-											<div class="section-cta-btn rtl"><a class="btn cta-btn" href="#">Learn More</a></div>
-										</div>
 									</div>
 								</div>
 							</div>

@@ -122,7 +122,7 @@ body {
   max-width: 57%;
 }
 .award-arabic .awards-achievements-content-top-gap {
-  margin-right: 41px;
+  margin-right: 6vw;
 }
 .award-arabic .wards-achievements-content::after {
   right: -90px;
@@ -387,8 +387,9 @@ body {
     width: 100%;
   }
   .arabic-home .carousel-caption {
-    top: 385px;
+    top: 38%;
     right: 15px;
+    width: 90%;
   }
   /* .invest-arabic .yellow-btn-box {
     right: 0px;
@@ -402,6 +403,7 @@ body {
     flex: 100%;
     padding: 0px;
     margin-left: 0px;
+    margin-right: 0;
   }
   .before-footer-arabic .befor-footer-box {
     right: 0px;
